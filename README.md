@@ -6,7 +6,7 @@
 
 行政区划截至日期是 2023 年；行政区划对应的经纬度坐标截至 2025 年 12 月 16 日。
 
-**PS：** 如果只需要含数据本身，请下载这个文件 [/blob/main/xzqh_with_amap_coordinates.json](/blob/main/xzqh_with_amap_coordinates.json)。
+**PS：** 如果只需要含数据本身，请下载这个文件 [xzqh_with_amap_coordinates.json](./xzqh_with_amap_coordinates.json)。
 
 ---
 
