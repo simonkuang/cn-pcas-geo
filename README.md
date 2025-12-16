@@ -4,6 +4,10 @@
 
 代码是 ChatGPT 5.2 和 Claude Code 写的。我只负责审核，以及提供 api key。
 
+行政区划截至日期是 2023 年；行政区划对应的经纬度坐标截至 2025 年 12 月 16 日。
+
+**PS：** 如果只需要含数据本身，请下载这个文件 [/blob/main/xzqh_with_amap_coordinates.json](/blob/main/xzqh_with_amap_coordinates.json)。
+
 ---
 
 # 行政区划坐标数据处理工具
