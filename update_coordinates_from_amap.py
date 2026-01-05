@@ -1,27 +1,27 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-使用高德地图API更新行政区划坐标
-- 使用省级查询 + subdistrict=2 获取三级数据
-- QPS限制 <30（实际控制在25）
-- 智能匹配行政区划代码
+Update administrative division coordinates using Amap API.
+- Prefer batch query for provinces (subdistrict=2)
+- Query missing nodes individually using full names
+- QPS limit < 30
 """
 
 import json
 import time
 import urllib.parse
 import urllib.request
-from typing import Dict, Any, List, Optional
+import argparse
+import os
+from typing import Dict, Any, List, Optional, Tuple
 
-
-# 高德地图API配置
+# Amap API Configuration
 AMAP_API_KEY = "4a8be77cc644d042ef16ee0a5e194bfc"
 AMAP_API_URL = "https://restapi.amap.com/v3/config/district"
-REQUEST_INTERVAL = 0.04  # 40ms间隔，QPS=25
-
+REQUEST_INTERVAL = 0.04  # 40ms interval, QPS=25
 
 class AmapClient:
-    """高德地图API客户端"""
+    """Amap API Client"""
 
     def __init__(self, api_key: str):
         self.api_key = api_key
@@ -29,189 +29,238 @@ class AmapClient:
         self.last_request_time = 0
 
     def _throttle(self):
-        """限流控制"""
+        """Rate limiting"""
         current_time = time.time()
         elapsed = current_time - self.last_request_time
         if elapsed < REQUEST_INTERVAL:
             time.sleep(REQUEST_INTERVAL - elapsed)
         self.last_request_time = time.time()
 
-    def query_district(self, keywords: str, subdistrict: int = 2) -> Optional[Dict[str, Any]]:
+    def query_district(self, keywords: str, subdistrict: int = 1) -> Optional[Dict[str, Any]]:
         """
-        查询行政区划
+        Query administrative division.
 
         Args:
-            keywords: 关键字（建议使用省或市名称）
-            subdistrict: 下级层级（0=不返回下级，1=返回下一级，2=返回下两级，3=返回下三级）
+            keywords: Keywords
+            subdistrict: Subdistrict level
 
         Returns:
-            API返回的JSON数据，失败返回None
+            JSON data from API, or None on failure.
         """
         self._throttle()
-
-        # URL编码
         encoded_keywords = urllib.parse.quote(keywords)
-
-        # 构建请求URL
         url = f"{AMAP_API_URL}?keywords={encoded_keywords}&key={self.api_key}&output=JSON&subdistrict={subdistrict}"
 
         try:
             self.request_count += 1
             with urllib.request.urlopen(url, timeout=10) as response:
                 data = json.loads(response.read().decode('utf-8'))
-
                 if data.get('status') == '1' and data.get('infocode') == '10000':
                     return data
                 else:
-                    print(f"  ⚠️  查询失败: {keywords} - {data.get('info')}")
                     return None
-
         except Exception as e:
-            print(f"  ❌ 请求异常: {keywords} - {str(e)}")
+            print(f"  X Request exception: {keywords} - {str(e)}")
             return None
 
+def collect_target_nodes(node: Dict[str, Any], targets: List[Dict[str, Any]]):
+    """Collect target nodes (Province, Prefecture/City)"""
+    # Strategy: Only query Province and Prefecture/City level.
+    # subdistrict=1 or 2 will cover lower levels.
+    if node.get('level') in ['province', 'prefecture']:
+        targets.append(node)
+    
+    for child in node.get('children', []):
+        collect_target_nodes(child, targets)
 
-def build_amap_index(districts: List[Dict[str, Any]], index: Dict[str, Dict[str, Any]]):
-    """
-    递归构建行政区划代码索引
+def process_query_result(target_node: Dict[str, Any], api_data: Dict[str, Any], stats: Dict[str, int]):
+    """Process API result and update current node and its children"""
+    if not api_data or not api_data.get('districts'):
+        stats['fail'] += 1
+        return
 
-    Args:
-        districts: 高德地图返回的districts数组
-        index: 输出索引 {adcode: {name, center, level}}
-    """
-    for district in districts:
-        adcode = district.get('adcode')
-        name = district.get('name')
-        center_str = district.get('center')
-        level = district.get('level')
+    # 1. Match current node
+    matched_district = None
+    target_code = str(target_node.get('code'))
+    
+    for d in api_data['districts']:
+        if str(d.get('adcode')) == target_code:
+            matched_district = d
+            break
+            
+    if not matched_district:
+        for d in api_data['districts']:
+            if d.get('name') == target_node['name']:
+                matched_district = d
+                break
+    
+    if not matched_district and len(api_data['districts']) > 0:
+        if api_data['districts'][0].get('name') == target_node['name']:
+             matched_district = api_data['districts'][0]
 
-        # 解析中心坐标 "经度,纬度"
-        if adcode and center_str:
+    if matched_district:
+        # Update current node coordinates
+        center_str = matched_district.get('center')
+        if center_str:
             try:
                 lon, lat = center_str.split(',')
-                index[adcode] = {
-                    'name': name,
-                    'center': {
-                        'longitude': float(lon),
-                        'latitude': float(lat)
-                    },
-                    'level': level
+                target_node['center'] = {
+                    'longitude': float(lon),
+                    'latitude': float(lat)
                 }
-            except (ValueError, AttributeError):
+                stats['updated'] += 1
+            except:
                 pass
+        
+        # 2. Update children coordinates
+        # Recursively flatten all sub-districts from API to handle intermediate layers (e.g. Beijing -> City Area -> District)
+        sub_map = {}
+        
+        def flatten_districts(districts_list):
+            for sub in districts_list:
+                s_name = sub.get('name')
+                s_center = sub.get('center')
+                if s_name and s_center:
+                    sub_map[s_name] = s_center
+                
+                if sub.get('districts'):
+                    flatten_districts(sub['districts'])
+        
+        flatten_districts(matched_district.get('districts', []))
+        
+        # Iterate over target_node children and try to match
+        if 'children' in target_node:
+            for child in target_node['children']:
+                child_name = child['name']
+                # Try exact match first, then stripped match (for names like "仙桃市*")
+                clean_name = child_name.strip('*')
+                
+                target_center = sub_map.get(child_name) or sub_map.get(clean_name)
+                
+                if target_center:
+                    try:
+                        lon, lat = target_center.split(',')
+                        child['center'] = {
+                            'longitude': float(lon),
+                            'latitude': float(lat)
+                        }
+                        stats['updated_children'] += 1
+                    except:
+                        pass
+        stats['success'] += 1
+    else:
+        stats['fail'] += 1
+        print(f"  ! Failed to match API data: {target_node['name']} ({target_node['code']})")
 
-        # 递归处理下级行政区
-        sub_districts = district.get('districts', [])
-        if sub_districts:
-            build_amap_index(sub_districts, index)
-
-
-def process_xzqh_node(node: Dict[str, Any], amap_index: Dict[str, Dict[str, Any]]) -> Dict[str, Any]:
-    """
-    递归处理xzqh节点，填充坐标
-
-    Args:
-        node: xzqh节点
-        amap_index: 高德地图数据索引
-
-    Returns:
-        处理后的节点
-    """
-    result = {
-        'code': node['code'],
-        'name': node['name'],
-        'level': node['level']
-    }
-
-    # 从高德地图数据中查找坐标
-    code = node['code']
-    if code in amap_index:
-        result['center'] = amap_index[code]['center']
-
-    # 处理children
-    children = node.get('children', [])
-    if children:
-        processed_children = [process_xzqh_node(child, amap_index) for child in children]
-        result['children'] = processed_children
-
-    return result
-
+def find_missing_nodes(node: Dict[str, Any], path: List[str], missing_list: List[Tuple[Dict[str, Any], str]]):
+    """Find nodes missing coordinates"""
+    current_path = path + [node['name']]
+    
+    if 'center' not in node:
+        missing_list.append((node, "".join(current_path)))
+    
+    for child in node.get('children', []):
+        find_missing_nodes(child, current_path, missing_list)
 
 def main():
-    """主函数"""
+    parser = argparse.ArgumentParser(description="Update administrative division coordinates using Amap API.")
+    parser.add_argument("--force", action="store_true", help="Force reload from original tree file (clean slate).")
+    args = parser.parse_args()
+
     print("=" * 60)
-    print("使用高德地图API更新行政区划坐标")
+    print("Update Admin Divisions Coordinates via Amap API")
+    if args.force:
+        print("RED: Force reset mode enabled. Reloading from original tree.")
+    print("Strategy: Traverse Province/Prefecture nodes, use subdistrict=1/2 to cover lower levels.")
     print("=" * 60)
 
-    # 1. 加载xzqh数据
-    print("\n[1/5] 加载 xzqh_2023_tree.json...")
-    with open('xzqh_2023_tree.json', 'r', encoding='utf-8') as f:
-        xzqh_data = json.load(f)
-    print(f"  ✓ 加载完成，共 {len(xzqh_data)} 个省级行政区")
-
-    # 2. 初始化高德地图客户端
-    print("\n[2/5] 初始化高德地图API客户端...")
-    client = AmapClient(AMAP_API_KEY)
-    print(f"  ✓ 初始化完成，QPS限制: {1/REQUEST_INTERVAL:.1f}")
-
-    # 3. 查询所有省级行政区数据
-    print("\n[3/5] 查询高德地图数据...")
-    amap_index: Dict[str, Dict[str, Any]] = {}
-
-    total_provinces = len(xzqh_data)
-    for idx, province in enumerate(xzqh_data, 1):
-        province_name = province['name']
-        print(f"  [{idx:2d}/{total_provinces}] 查询: {province_name} ...")
-
-        # 使用省名查询，subdistrict=2获取省、市、县三级数据
-        result = client.query_district(province_name, subdistrict=2)
-
-        if result and result.get('districts'):
-            # 构建索引
-            build_amap_index(result['districts'], amap_index)
-            print(f"         ✓ 成功，当前索引: {len(amap_index)} 个行政区")
-        else:
-            print(f"         ✗ 查询失败")
-
-    print(f"\n  ✓ 查询完成！")
-    print(f"    - 总请求数: {client.request_count}")
-    print(f"    - 索引数据: {len(amap_index)} 个行政区")
-
-    # 4. 更新xzqh数据
-    print("\n[4/5] 更新 xzqh 数据...")
-    result_data = [process_xzqh_node(node, amap_index) for node in xzqh_data]
-
-    # 统计匹配情况
-    total_count = 0
-    matched_count = 0
-
-    def count_nodes(node: Dict[str, Any]) -> None:
-        nonlocal total_count, matched_count
-        total_count += 1
-        if 'center' in node:
-            matched_count += 1
-        for child in node.get('children', []):
-            count_nodes(child)
-
-    for node in result_data:
-        count_nodes(node)
-
-    print(f"  ✓ 更新完成")
-    print(f"    - 总行政区: {total_count}")
-    print(f"    - 已匹配: {matched_count} ({matched_count/total_count*100:.1f}%)")
-    print(f"    - 未匹配: {total_count - matched_count}")
-
-    # 5. 保存结果
+    # 1. Load Data
+    input_file = 'xzqh_with_amap_coordinates.json'
+    original_file = 'xzqh_2023_tree.json'
     output_file = 'xzqh_with_amap_coordinates.json'
-    print(f"\n[5/5] 保存结果到 {output_file}...")
+    
+    loaded_file = None
+    
+    if args.force and os.path.exists(original_file):
+        loaded_file = original_file
+        print(f"\n[1/5] (Force) Loading original file {loaded_file}...")
+    elif os.path.exists(input_file):
+        loaded_file = input_file
+        print(f"\n[1/5] Loading existing file {loaded_file}...")
+    elif os.path.exists(original_file):
+        loaded_file = original_file
+        print(f"\n[1/5] Loading original file {loaded_file} (existing not found)...")
+    else:
+        print("X Error: Data file not found (xzqh_with_amap_coordinates.json or xzqh_2023_tree.json)")
+        return
+
+    with open(loaded_file, 'r', encoding='utf-8') as f:
+        xzqh_data = json.load(f)
+            
+    print(f"  V Loaded, total {len(xzqh_data)} provincial divisions")
+
+    # 2. Collect targets
+    print("\n[2/5] Analyzing structure, collecting targets...")
+    target_nodes = []
+    for node in xzqh_data:
+        collect_target_nodes(node, target_nodes)
+    print(f"  V Collected {len(target_nodes)} targets (Province + Prefecture)")
+
+    # 3. Execute Query
+    print(f"\n[3/5] Starting batch query ({len(target_nodes)} requests)...")
+    client = AmapClient(AMAP_API_KEY)
+    stats = {'success': 0, 'fail': 0, 'updated': 0, 'updated_children': 0}
+    
+    total = len(target_nodes)
+    for idx, node in enumerate(target_nodes, 1):
+        if idx % 20 == 0 or idx == total:
+            print(f"\r  ...Progress: {idx}/{total} | Success: {stats['success']} | Node Upd: {stats['updated']} | Child Upd: {stats['updated_children']}", end='', flush=True)
+        
+        # Core Query
+        # Use subdistrict=2 for Province to penetrate municipality virtual layers
+        # Use subdistrict=1 for Prefecture
+        sub_level = 2 if node.get('level') == 'province' else 1
+        result = client.query_district(node['name'], subdistrict=sub_level)
+        process_query_result(node, result, stats)
+        
+    print(f"\n  V Query phase completed")
+
+    # 4. Check Missing (Report only)
+    print(f"\n[4/5] Verifying coverage...")
+    missing_nodes: List[Tuple[Dict[str, Any], str]] = []
+    for node in xzqh_data:
+        find_missing_nodes(node, [], missing_nodes)
+    
+    if len(missing_nodes) == 0:
+        print("  V All nodes have coordinates!")
+    else:
+        print(f"  ! Warning: {len(missing_nodes)} nodes are still missing coordinates.")
+        if len(missing_nodes) < 10:
+            for node, name in missing_nodes:
+                print(f"    - Missing: {name} ({node['code']})")
+        else:
+            print("    (Showing first 5 missing)")
+            for i in range(5):
+                print(f"    - Missing: {missing_nodes[i][1]} ({missing_nodes[i][0]['code']})")
+
+    # 5. Cleanup and Save
+    print(f"\n[5/5] Cleaning up and Saving to {output_file}...")
+    
+    def clean_empty_children(nodes: List[Dict[str, Any]]):
+        """Recursively remove empty 'children' lists."""
+        for node in nodes:
+            if 'children' in node:
+                if not node['children']:
+                    del node['children']
+                else:
+                    clean_empty_children(node['children'])
+
+    clean_empty_children(xzqh_data)
+
     with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(result_data, f, ensure_ascii=False, indent=2)
-
-    print(f"  ✓ 保存完成！")
-    print("\n" + "=" * 60)
-    print("✅ 所有任务完成！")
-    print("=" * 60)
-
+        json.dump(xzqh_data, f, ensure_ascii=False, indent=2)
+        
+    print(f"  V Save completed!")
 
 if __name__ == '__main__':
     main()

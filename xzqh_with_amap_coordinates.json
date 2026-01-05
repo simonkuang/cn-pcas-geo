@@ -3,10 +3,6 @@
     "code": "110000",
     "name": "北京市",
     "level": "province",
-    "center": {
-      "longitude": 116.407387,
-      "latitude": 39.904179
-    },
     "children": [
       {
         "code": "110101",
@@ -152,16 +148,16 @@
           "latitude": 40.457033
         }
       }
-    ]
+    ],
+    "center": {
+      "longitude": 116.407387,
+      "latitude": 39.904179
+    }
   },
   {
     "code": "120000",
     "name": "天津市",
     "level": "province",
-    "center": {
-      "longitude": 117.201509,
-      "latitude": 39.085318
-    },
     "children": [
       {
         "code": "120101",
@@ -307,25 +303,21 @@
           "latitude": 40.046544
         }
       }
-    ]
+    ],
+    "center": {
+      "longitude": 117.201509,
+      "latitude": 39.085318
+    }
   },
   {
     "code": "130000",
     "name": "河北省",
     "level": "province",
-    "center": {
-      "longitude": 114.530399,
-      "latitude": 38.037707
-    },
     "children": [
       {
         "code": "130100",
         "name": "石家庄市",
         "level": "prefecture",
-        "center": {
-          "longitude": 114.514976,
-          "latitude": 38.042007
-        },
         "children": [
           {
             "code": "130102",
@@ -525,16 +517,16 @@
               "latitude": 38.343952
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 114.514976,
+          "latitude": 38.042007
+        }
       },
       {
         "code": "130200",
         "name": "唐山市",
         "level": "prefecture",
-        "center": {
-          "longitude": 118.180149,
-          "latitude": 39.63068
-        },
         "children": [
           {
             "code": "130202",
@@ -662,16 +654,16 @@
               "latitude": 39.740963
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 118.180149,
+          "latitude": 39.63068
+        }
       },
       {
         "code": "130300",
         "name": "秦皇岛市",
         "level": "prefecture",
-        "center": {
-          "longitude": 119.52022,
-          "latitude": 39.888243
-        },
         "children": [
           {
             "code": "130302",
@@ -736,16 +728,16 @@
               "latitude": 39.892564
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 119.52022,
+          "latitude": 39.888243
+        }
       },
       {
         "code": "130400",
         "name": "邯郸市",
         "level": "prefecture",
-        "center": {
-          "longitude": 114.53915,
-          "latitude": 36.625849
-        },
         "children": [
           {
             "code": "130402",
@@ -909,16 +901,16 @@
               "latitude": 36.69759
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 114.53915,
+          "latitude": 36.625849
+        }
       },
       {
         "code": "130500",
         "name": "邢台市",
         "level": "prefecture",
-        "center": {
-          "longitude": 114.49742,
-          "latitude": 37.060227
-        },
         "children": [
           {
             "code": "130502",
@@ -1082,16 +1074,16 @@
               "latitude": 36.855548
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 114.49742,
+          "latitude": 37.060227
+        }
       },
       {
         "code": "130600",
         "name": "保定市",
         "level": "prefecture",
-        "center": {
-          "longitude": 115.464523,
-          "latitude": 38.874476
-        },
         "children": [
           {
             "code": "130602",
@@ -1309,16 +1301,16 @@
               "latitude": 39.327233
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 115.464523,
+          "latitude": 38.874476
+        }
       },
       {
         "code": "130700",
         "name": "张家口市",
         "level": "prefecture",
-        "center": {
-          "longitude": 114.885895,
-          "latitude": 40.768931
-        },
         "children": [
           {
             "code": "130702",
@@ -1464,16 +1456,16 @@
               "latitude": 40.913348
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 114.885895,
+          "latitude": 40.768931
+        }
       },
       {
         "code": "130800",
         "name": "承德市",
         "level": "prefecture",
-        "center": {
-          "longitude": 117.962749,
-          "latitude": 40.952942
-        },
         "children": [
           {
             "code": "130802",
@@ -1574,16 +1566,16 @@
               "latitude": 41.018482
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 117.962749,
+          "latitude": 40.952942
+        }
       },
       {
         "code": "130900",
         "name": "沧州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 116.838715,
-          "latitude": 38.304676
-        },
         "children": [
           {
             "code": "130902",
@@ -1729,16 +1721,16 @@
               "latitude": 38.446656
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 116.838715,
+          "latitude": 38.304676
+        }
       },
       {
         "code": "131000",
         "name": "廊坊市",
         "level": "prefecture",
-        "center": {
-          "longitude": 116.683546,
-          "latitude": 39.538304
-        },
         "children": [
           {
             "code": "131002",
@@ -1830,16 +1822,16 @@
               "latitude": 39.982933
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 116.683546,
+          "latitude": 39.538304
+        }
       },
       {
         "code": "131100",
         "name": "衡水市",
         "level": "prefecture",
-        "center": {
-          "longitude": 115.668987,
-          "latitude": 37.739367
-        },
         "children": [
           {
             "code": "131102",
@@ -1940,27 +1932,27 @@
               "latitude": 38.001535
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 115.668987,
+          "latitude": 37.739367
+        }
       }
-    ]
+    ],
+    "center": {
+      "longitude": 114.530399,
+      "latitude": 38.037707
+    }
   },
   {
     "code": "140000",
     "name": "山西省",
     "level": "province",
-    "center": {
-      "longitude": 112.578781,
-      "latitude": 37.813948
-    },
     "children": [
       {
         "code": "140100",
         "name": "太原市",
         "level": "prefecture",
-        "center": {
-          "longitude": 112.549656,
-          "latitude": 37.870451
-        },
         "children": [
           {
             "code": "140105",
@@ -2052,16 +2044,16 @@
               "latitude": 37.907414
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 112.549656,
+          "latitude": 37.870451
+        }
       },
       {
         "code": "140200",
         "name": "大同市",
         "level": "prefecture",
-        "center": {
-          "longitude": 113.366749,
-          "latitude": 40.09711
-        },
         "children": [
           {
             "code": "140212",
@@ -2153,16 +2145,16 @@
               "latitude": 40.013442
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 113.366749,
+          "latitude": 40.09711
+        }
       },
       {
         "code": "140300",
         "name": "阳泉市",
         "level": "prefecture",
-        "center": {
-          "longitude": 113.580426,
-          "latitude": 37.857094
-        },
         "children": [
           {
             "code": "140302",
@@ -2209,16 +2201,16 @@
               "latitude": 38.086041
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 113.580426,
+          "latitude": 37.857094
+        }
       },
       {
         "code": "140400",
         "name": "长治市",
         "level": "prefecture",
-        "center": {
-          "longitude": 113.117394,
-          "latitude": 36.195142
-        },
         "children": [
           {
             "code": "140403",
@@ -2328,16 +2320,16 @@
               "latitude": 36.499989
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 113.117394,
+          "latitude": 36.195142
+        }
       },
       {
         "code": "140500",
         "name": "晋城市",
         "level": "prefecture",
-        "center": {
-          "longitude": 112.852022,
-          "latitude": 35.491315
-        },
         "children": [
           {
             "code": "140502",
@@ -2393,16 +2385,16 @@
               "latitude": 35.798775
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 112.852022,
+          "latitude": 35.491315
+        }
       },
       {
         "code": "140600",
         "name": "朔州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 112.432906,
-          "latitude": 39.331734
-        },
         "children": [
           {
             "code": "140602",
@@ -2458,16 +2450,16 @@
               "latitude": 39.820522
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 112.432906,
+          "latitude": 39.331734
+        }
       },
       {
         "code": "140700",
         "name": "晋中市",
         "level": "prefecture",
-        "center": {
-          "longitude": 112.752633,
-          "latitude": 37.688006
-        },
         "children": [
           {
             "code": "140702",
@@ -2568,16 +2560,16 @@
               "latitude": 37.027538
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 112.752633,
+          "latitude": 37.688006
+        }
       },
       {
         "code": "140800",
         "name": "运城市",
         "level": "prefecture",
-        "center": {
-          "longitude": 111.007051,
-          "latitude": 35.02667
-        },
         "children": [
           {
             "code": "140802",
@@ -2696,16 +2688,16 @@
               "latitude": 35.596357
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 111.007051,
+          "latitude": 35.02667
+        }
       },
       {
         "code": "140900",
         "name": "忻州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 112.734149,
-          "latitude": 38.415958
-        },
         "children": [
           {
             "code": "140902",
@@ -2833,16 +2825,16 @@
               "latitude": 38.731412
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 112.734149,
+          "latitude": 38.415958
+        }
       },
       {
         "code": "141000",
         "name": "临汾市",
         "level": "prefecture",
-        "center": {
-          "longitude": 111.51931,
-          "latitude": 36.088581
-        },
         "children": [
           {
             "code": "141002",
@@ -2997,16 +2989,16 @@
               "latitude": 36.569046
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 111.51931,
+          "latitude": 36.088581
+        }
       },
       {
         "code": "141100",
         "name": "吕梁市",
         "level": "prefecture",
-        "center": {
-          "longitude": 111.14454,
-          "latitude": 37.518996
-        },
         "children": [
           {
             "code": "141102",
@@ -3125,27 +3117,27 @@
               "latitude": 37.261493
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 111.14454,
+          "latitude": 37.518996
+        }
       }
-    ]
+    ],
+    "center": {
+      "longitude": 112.578781,
+      "latitude": 37.813948
+    }
   },
   {
     "code": "150000",
     "name": "内蒙古自治区",
     "level": "province",
-    "center": {
-      "longitude": 111.765226,
-      "latitude": 40.818233
-    },
     "children": [
       {
         "code": "150100",
         "name": "呼和浩特市",
         "level": "prefecture",
-        "center": {
-          "longitude": 111.748814,
-          "latitude": 40.842127
-        },
         "children": [
           {
             "code": "150102",
@@ -3228,16 +3220,16 @@
               "latitude": 41.096511
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 111.748814,
+          "latitude": 40.842127
+        }
       },
       {
         "code": "150200",
         "name": "包头市",
         "level": "prefecture",
-        "center": {
-          "longitude": 109.95315,
-          "latitude": 40.621327
-        },
         "children": [
           {
             "code": "150202",
@@ -3320,16 +3312,16 @@
               "latitude": 41.698992
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 109.95315,
+          "latitude": 40.621327
+        }
       },
       {
         "code": "150300",
         "name": "乌海市",
         "level": "prefecture",
-        "center": {
-          "longitude": 106.79415,
-          "latitude": 39.655048
-        },
         "children": [
           {
             "code": "150302",
@@ -3358,16 +3350,16 @@
               "latitude": 39.505609
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 106.79415,
+          "latitude": 39.655048
+        }
       },
       {
         "code": "150400",
         "name": "赤峰市",
         "level": "prefecture",
-        "center": {
-          "longitude": 118.887613,
-          "latitude": 42.256876
-        },
         "children": [
           {
             "code": "150402",
@@ -3477,16 +3469,16 @@
               "latitude": 42.290731
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 118.887613,
+          "latitude": 42.256876
+        }
       },
       {
         "code": "150500",
         "name": "通辽市",
         "level": "prefecture",
-        "center": {
-          "longitude": 122.243309,
-          "latitude": 43.653566
-        },
         "children": [
           {
             "code": "150502",
@@ -3560,16 +3552,16 @@
               "latitude": 45.533598
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 122.243309,
+          "latitude": 43.653566
+        }
       },
       {
         "code": "150600",
         "name": "鄂尔多斯市",
         "level": "prefecture",
-        "center": {
-          "longitude": 109.782473,
-          "latitude": 39.608744
-        },
         "children": [
           {
             "code": "150602",
@@ -3652,16 +3644,16 @@
               "latitude": 39.565064
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 109.782473,
+          "latitude": 39.608744
+        }
       },
       {
         "code": "150700",
         "name": "呼伦贝尔市",
         "level": "prefecture",
-        "center": {
-          "longitude": 119.77845,
-          "latitude": 49.166536
-        },
         "children": [
           {
             "code": "150702",
@@ -3789,16 +3781,16 @@
               "latitude": 50.779758
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 119.77845,
+          "latitude": 49.166536
+        }
       },
       {
         "code": "150800",
         "name": "巴彦淖尔市",
         "level": "prefecture",
-        "center": {
-          "longitude": 107.387767,
-          "latitude": 40.742987
-        },
         "children": [
           {
             "code": "150802",
@@ -3863,16 +3855,16 @@
               "latitude": 40.886596
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 107.387767,
+          "latitude": 40.742987
+        }
       },
       {
         "code": "150900",
         "name": "乌兰察布市",
         "level": "prefecture",
-        "center": {
-          "longitude": 113.132227,
-          "latitude": 40.994526
-        },
         "children": [
           {
             "code": "150902",
@@ -3973,16 +3965,16 @@
               "latitude": 40.437022
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 113.132227,
+          "latitude": 40.994526
+        }
       },
       {
         "code": "152200",
         "name": "兴安盟",
         "level": "prefecture",
-        "center": {
-          "longitude": 122.037796,
-          "latitude": 46.082373
-        },
         "children": [
           {
             "code": "152201",
@@ -4038,16 +4030,16 @@
               "latitude": 45.381918
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 122.037796,
+          "latitude": 46.082373
+        }
       },
       {
         "code": "152500",
         "name": "锡林郭勒盟",
         "level": "prefecture",
-        "center": {
-          "longitude": 116.047387,
-          "latitude": 43.933212
-        },
         "children": [
           {
             "code": "152501",
@@ -4157,16 +4149,16 @@
               "latitude": 42.203454
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 116.047387,
+          "latitude": 43.933212
+        }
       },
       {
         "code": "152900",
         "name": "阿拉善盟",
         "level": "prefecture",
-        "center": {
-          "longitude": 105.729135,
-          "latitude": 38.851554
-        },
         "children": [
           {
             "code": "152921",
@@ -4195,27 +4187,27 @@
               "latitude": 41.953963
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 105.729135,
+          "latitude": 38.851554
+        }
       }
-    ]
+    ],
+    "center": {
+      "longitude": 111.765226,
+      "latitude": 40.818233
+    }
   },
   {
     "code": "210000",
     "name": "辽宁省",
     "level": "province",
-    "center": {
-      "longitude": 123.435093,
-      "latitude": 41.836743
-    },
     "children": [
       {
         "code": "210100",
         "name": "沈阳市",
         "level": "prefecture",
-        "center": {
-          "longitude": 123.464675,
-          "latitude": 41.677576
-        },
         "children": [
           {
             "code": "210102",
@@ -4334,16 +4326,16 @@
               "latitude": 41.985757
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 123.464675,
+          "latitude": 41.677576
+        }
       },
       {
         "code": "210200",
         "name": "大连市",
         "level": "prefecture",
-        "center": {
-          "longitude": 121.614786,
-          "latitude": 38.913962
-        },
         "children": [
           {
             "code": "210202",
@@ -4435,16 +4427,16 @@
               "latitude": 39.680825
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 121.614786,
+          "latitude": 38.913962
+        }
       },
       {
         "code": "210300",
         "name": "鞍山市",
         "level": "prefecture",
-        "center": {
-          "longitude": 122.994183,
-          "latitude": 41.108239
-        },
         "children": [
           {
             "code": "210302",
@@ -4509,16 +4501,16 @@
               "latitude": 40.882548
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 122.994183,
+          "latitude": 41.108239
+        }
       },
       {
         "code": "210400",
         "name": "抚顺市",
         "level": "prefecture",
-        "center": {
-          "longitude": 123.957053,
-          "latitude": 41.881311
-        },
         "children": [
           {
             "code": "210402",
@@ -4583,16 +4575,16 @@
               "latitude": 42.100804
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 123.957053,
+          "latitude": 41.881311
+        }
       },
       {
         "code": "210500",
         "name": "本溪市",
         "level": "prefecture",
-        "center": {
-          "longitude": 123.766669,
-          "latitude": 41.294123
-        },
         "children": [
           {
             "code": "210502",
@@ -4648,16 +4640,16 @@
               "latitude": 41.267048
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 123.766669,
+          "latitude": 41.294123
+        }
       },
       {
         "code": "210600",
         "name": "丹东市",
         "level": "prefecture",
-        "center": {
-          "longitude": 124.354419,
-          "latitude": 40.000646
-        },
         "children": [
           {
             "code": "210602",
@@ -4713,16 +4705,16 @@
               "latitude": 40.45218
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 124.354419,
+          "latitude": 40.000646
+        }
       },
       {
         "code": "210700",
         "name": "锦州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 121.126859,
-          "latitude": 41.096114
-        },
         "children": [
           {
             "code": "210702",
@@ -4787,16 +4779,16 @@
               "latitude": 41.588657
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 121.126859,
+          "latitude": 41.096114
+        }
       },
       {
         "code": "210800",
         "name": "营口市",
         "level": "prefecture",
-        "center": {
-          "longitude": 122.219148,
-          "latitude": 40.625027
-        },
         "children": [
           {
             "code": "210802",
@@ -4852,16 +4844,16 @@
               "latitude": 40.644482
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 122.219148,
+          "latitude": 40.625027
+        }
       },
       {
         "code": "210900",
         "name": "阜新市",
         "level": "prefecture",
-        "center": {
-          "longitude": 121.670052,
-          "latitude": 42.022028
-        },
         "children": [
           {
             "code": "210902",
@@ -4926,16 +4918,16 @@
               "latitude": 42.386264
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 121.670052,
+          "latitude": 42.022028
+        }
       },
       {
         "code": "211000",
         "name": "辽阳市",
         "level": "prefecture",
-        "center": {
-          "longitude": 123.239669,
-          "latitude": 41.267396
-        },
         "children": [
           {
             "code": "211002",
@@ -5000,16 +4992,16 @@
               "latitude": 41.426537
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 123.239669,
+          "latitude": 41.267396
+        }
       },
       {
         "code": "211100",
         "name": "盘锦市",
         "level": "prefecture",
-        "center": {
-          "longitude": 122.170729,
-          "latitude": 40.71956
-        },
         "children": [
           {
             "code": "211102",
@@ -5047,16 +5039,16 @@
               "latitude": 41.243367
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 122.170729,
+          "latitude": 40.71956
+        }
       },
       {
         "code": "211200",
         "name": "铁岭市",
         "level": "prefecture",
-        "center": {
-          "longitude": 123.726008,
-          "latitude": 42.223709
-        },
         "children": [
           {
             "code": "211202",
@@ -5121,16 +5113,16 @@
               "latitude": 42.577645
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 123.726008,
+          "latitude": 42.223709
+        }
       },
       {
         "code": "211300",
         "name": "朝阳市",
         "level": "prefecture",
-        "center": {
-          "longitude": 120.488801,
-          "latitude": 41.601855
-        },
         "children": [
           {
             "code": "211302",
@@ -5195,16 +5187,16 @@
               "latitude": 41.245445
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 120.488801,
+          "latitude": 41.601855
+        }
       },
       {
         "code": "211400",
         "name": "葫芦岛市",
         "level": "prefecture",
-        "center": {
-          "longitude": 120.836783,
-          "latitude": 40.710974
-        },
         "children": [
           {
             "code": "211402",
@@ -5260,27 +5252,27 @@
               "latitude": 40.60999
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 120.836783,
+          "latitude": 40.710974
+        }
       }
-    ]
+    ],
+    "center": {
+      "longitude": 123.435093,
+      "latitude": 41.836743
+    }
   },
   {
     "code": "220000",
     "name": "吉林省",
     "level": "province",
-    "center": {
-      "longitude": 125.325802,
-      "latitude": 43.896942
-    },
     "children": [
       {
         "code": "220100",
         "name": "长春市",
         "level": "prefecture",
-        "center": {
-          "longitude": 125.323643,
-          "latitude": 43.816996
-        },
         "children": [
           {
             "code": "220102",
@@ -5381,16 +5373,16 @@
               "latitude": 43.495116
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 125.323643,
+          "latitude": 43.816996
+        }
       },
       {
         "code": "220200",
         "name": "吉林市",
         "level": "prefecture",
-        "center": {
-          "longitude": 126.549719,
-          "latitude": 43.838132
-        },
         "children": [
           {
             "code": "220202",
@@ -5473,16 +5465,16 @@
               "latitude": 42.946608
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 126.549719,
+          "latitude": 43.838132
+        }
       },
       {
         "code": "220300",
         "name": "四平市",
         "level": "prefecture",
-        "center": {
-          "longitude": 124.350599,
-          "latitude": 43.166764
-        },
         "children": [
           {
             "code": "220302",
@@ -5529,16 +5521,16 @@
               "latitude": 43.518301
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 124.350599,
+          "latitude": 43.166764
+        }
       },
       {
         "code": "220400",
         "name": "辽源市",
         "level": "prefecture",
-        "center": {
-          "longitude": 125.144676,
-          "latitude": 42.887961
-        },
         "children": [
           {
             "code": "220402",
@@ -5576,16 +5568,16 @@
               "latitude": 42.925636
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 125.144676,
+          "latitude": 42.887961
+        }
       },
       {
         "code": "220500",
         "name": "通化市",
         "level": "prefecture",
-        "center": {
-          "longitude": 125.939721,
-          "latitude": 41.728312
-        },
         "children": [
           {
             "code": "220502",
@@ -5650,16 +5642,16 @@
               "latitude": 41.125805
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 125.939721,
+          "latitude": 41.728312
+        }
       },
       {
         "code": "220600",
         "name": "白山市",
         "level": "prefecture",
-        "center": {
-          "longitude": 126.414274,
-          "latitude": 41.944132
-        },
         "children": [
           {
             "code": "220602",
@@ -5715,16 +5707,16 @@
               "latitude": 41.811979
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 126.414274,
+          "latitude": 41.944132
+        }
       },
       {
         "code": "220700",
         "name": "松原市",
         "level": "prefecture",
-        "center": {
-          "longitude": 124.825321,
-          "latitude": 45.14191
-        },
         "children": [
           {
             "code": "220702",
@@ -5771,16 +5763,16 @@
               "latitude": 44.989057
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 124.825321,
+          "latitude": 45.14191
+        }
       },
       {
         "code": "220800",
         "name": "白城市",
         "level": "prefecture",
-        "center": {
-          "longitude": 122.838102,
-          "latitude": 45.620131
-        },
         "children": [
           {
             "code": "220802",
@@ -5827,16 +5819,16 @@
               "latitude": 45.507004
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 122.838102,
+          "latitude": 45.620131
+        }
       },
       {
         "code": "222400",
         "name": "延边朝鲜族自治州",
         "level": "prefecture",
-        "center": {
-          "longitude": 129.470605,
-          "latitude": 42.909426
-        },
         "children": [
           {
             "code": "222401",
@@ -5910,27 +5902,27 @@
               "latitude": 43.111978
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 129.470605,
+          "latitude": 42.909426
+        }
       }
-    ]
+    ],
+    "center": {
+      "longitude": 125.325802,
+      "latitude": 43.896942
+    }
   },
   {
     "code": "230000",
     "name": "黑龙江省",
     "level": "province",
-    "center": {
-      "longitude": 126.661998,
-      "latitude": 45.742253
-    },
     "children": [
       {
         "code": "230100",
         "name": "哈尔滨市",
         "level": "prefecture",
-        "center": {
-          "longitude": 126.53505,
-          "latitude": 45.802981
-        },
         "children": [
           {
             "code": "230102",
@@ -6094,16 +6086,16 @@
               "latitude": 44.932164
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 126.53505,
+          "latitude": 45.802981
+        }
       },
       {
         "code": "230200",
         "name": "齐齐哈尔市",
         "level": "prefecture",
-        "center": {
-          "longitude": 123.918193,
-          "latitude": 47.354892
-        },
         "children": [
           {
             "code": "230202",
@@ -6249,16 +6241,16 @@
               "latitude": 48.466829
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 123.918193,
+          "latitude": 47.354892
+        }
       },
       {
         "code": "230300",
         "name": "鸡西市",
         "level": "prefecture",
-        "center": {
-          "longitude": 130.969385,
-          "latitude": 45.295087
-        },
         "children": [
           {
             "code": "230302",
@@ -6341,16 +6333,16 @@
               "latitude": 45.529482
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 130.969385,
+          "latitude": 45.295087
+        }
       },
       {
         "code": "230400",
         "name": "鹤岗市",
         "level": "prefecture",
-        "center": {
-          "longitude": 130.297687,
-          "latitude": 47.350659
-        },
         "children": [
           {
             "code": "230402",
@@ -6424,16 +6416,16 @@
               "latitude": 47.289522
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 130.297687,
+          "latitude": 47.350659
+        }
       },
       {
         "code": "230500",
         "name": "双鸭山市",
         "level": "prefecture",
-        "center": {
-          "longitude": 131.141563,
-          "latitude": 46.676157
-        },
         "children": [
           {
             "code": "230502",
@@ -6507,16 +6499,16 @@
               "latitude": 46.79726
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 131.141563,
+          "latitude": 46.676157
+        }
       },
       {
         "code": "230600",
         "name": "大庆市",
         "level": "prefecture",
-        "center": {
-          "longitude": 125.104078,
-          "latitude": 46.589498
-        },
         "children": [
           {
             "code": "230602",
@@ -6599,16 +6591,16 @@
               "latitude": 46.862348
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 125.104078,
+          "latitude": 46.589498
+        }
       },
       {
         "code": "230700",
         "name": "伊春市",
         "level": "prefecture",
-        "center": {
-          "longitude": 128.840863,
-          "latitude": 47.728332
-        },
         "children": [
           {
             "code": "230717",
@@ -6700,16 +6692,16 @@
               "latitude": 46.986604
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 128.840863,
+          "latitude": 47.728332
+        }
       },
       {
         "code": "230800",
         "name": "佳木斯市",
         "level": "prefecture",
-        "center": {
-          "longitude": 130.318916,
-          "latitude": 46.800002
-        },
         "children": [
           {
             "code": "230803",
@@ -6801,16 +6793,16 @@
               "latitude": 48.365027
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 130.318916,
+          "latitude": 46.800002
+        }
       },
       {
         "code": "230900",
         "name": "七台河市",
         "level": "prefecture",
-        "center": {
-          "longitude": 131.003015,
-          "latitude": 45.771178
-        },
         "children": [
           {
             "code": "230902",
@@ -6848,16 +6840,16 @@
               "latitude": 45.755856
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 131.003015,
+          "latitude": 45.771178
+        }
       },
       {
         "code": "231000",
         "name": "牡丹江市",
         "level": "prefecture",
-        "center": {
-          "longitude": 129.632928,
-          "latitude": 44.551486
-        },
         "children": [
           {
             "code": "231002",
@@ -6949,16 +6941,16 @@
               "latitude": 44.090361
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 129.632928,
+          "latitude": 44.551486
+        }
       },
       {
         "code": "231100",
         "name": "黑河市",
         "level": "prefecture",
-        "center": {
-          "longitude": 127.528226,
-          "latitude": 50.244887
-        },
         "children": [
           {
             "code": "231102",
@@ -7014,16 +7006,16 @@
               "latitude": 49.185766
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 127.528226,
+          "latitude": 50.244887
+        }
       },
       {
         "code": "231200",
         "name": "绥化市",
         "level": "prefecture",
-        "center": {
-          "longitude": 126.968714,
-          "latitude": 46.654147
-        },
         "children": [
           {
             "code": "231202",
@@ -7115,16 +7107,16 @@
               "latitude": 47.450661
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 126.968714,
+          "latitude": 46.654147
+        }
       },
       {
         "code": "232700",
         "name": "大兴安岭地区",
         "level": "prefecture",
-        "center": {
-          "longitude": 124.11786,
-          "latitude": 50.41129
-        },
         "children": [
           {
             "code": "232701",
@@ -7153,18 +7145,22 @@
               "latitude": 52.334512
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 124.11786,
+          "latitude": 50.41129
+        }
       }
-    ]
+    ],
+    "center": {
+      "longitude": 126.661998,
+      "latitude": 45.742253
+    }
   },
   {
     "code": "310000",
     "name": "上海市",
     "level": "province",
-    "center": {
-      "longitude": 121.473667,
-      "latitude": 31.230525
-    },
     "children": [
       {
         "code": "310101",
@@ -7310,25 +7306,21 @@
           "latitude": 31.623863
         }
       }
-    ]
+    ],
+    "center": {
+      "longitude": 121.473667,
+      "latitude": 31.230525
+    }
   },
   {
     "code": "320000",
     "name": "江苏省",
     "level": "province",
-    "center": {
-      "longitude": 118.763563,
-      "latitude": 32.061377
-    },
     "children": [
       {
         "code": "320100",
         "name": "南京市",
         "level": "prefecture",
-        "center": {
-          "longitude": 118.796624,
-          "latitude": 32.059344
-        },
         "children": [
           {
             "code": "320102",
@@ -7429,16 +7421,16 @@
               "latitude": 31.328678
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 118.796624,
+          "latitude": 32.059344
+        }
       },
       {
         "code": "320200",
         "name": "无锡市",
         "level": "prefecture",
-        "center": {
-          "longitude": 120.311889,
-          "latitude": 31.491064
-        },
         "children": [
           {
             "code": "320205",
@@ -7503,16 +7495,16 @@
               "latitude": 31.338429
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 120.311889,
+          "latitude": 31.491064
+        }
       },
       {
         "code": "320300",
         "name": "徐州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 117.283752,
-          "latitude": 34.204224
-        },
         "children": [
           {
             "code": "320302",
@@ -7604,16 +7596,16 @@
               "latitude": 34.339208
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 117.283752,
+          "latitude": 34.204224
+        }
       },
       {
         "code": "320400",
         "name": "常州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 119.974092,
-          "latitude": 31.811313
-        },
         "children": [
           {
             "code": "320402",
@@ -7669,16 +7661,16 @@
               "latitude": 31.416967
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 119.974092,
+          "latitude": 31.811313
+        }
       },
       {
         "code": "320500",
         "name": "苏州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 120.585294,
-          "latitude": 31.299758
-        },
         "children": [
           {
             "code": "320505",
@@ -7761,16 +7753,16 @@
               "latitude": 31.458043
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 120.585294,
+          "latitude": 31.299758
+        }
       },
       {
         "code": "320600",
         "name": "南通市",
         "level": "prefecture",
-        "center": {
-          "longitude": 120.894522,
-          "latitude": 31.981269
-        },
         "children": [
           {
             "code": "320612",
@@ -7835,16 +7827,16 @@
               "latitude": 32.532853
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 120.894522,
+          "latitude": 31.981269
+        }
       },
       {
         "code": "320700",
         "name": "连云港市",
         "level": "prefecture",
-        "center": {
-          "longitude": 119.221487,
-          "latitude": 34.596639
-        },
         "children": [
           {
             "code": "320703",
@@ -7900,16 +7892,16 @@
               "latitude": 34.087251
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 119.221487,
+          "latitude": 34.596639
+        }
       },
       {
         "code": "320800",
         "name": "淮安市",
         "level": "prefecture",
-        "center": {
-          "longitude": 119.113166,
-          "latitude": 33.551495
-        },
         "children": [
           {
             "code": "320803",
@@ -7974,16 +7966,16 @@
               "latitude": 33.024663
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 119.113166,
+          "latitude": 33.551495
+        }
       },
       {
         "code": "320900",
         "name": "盐城市",
         "level": "prefecture",
-        "center": {
-          "longitude": 120.16263,
-          "latitude": 33.348176
-        },
         "children": [
           {
             "code": "320902",
@@ -8066,16 +8058,16 @@
               "latitude": 32.867845
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 120.16263,
+          "latitude": 33.348176
+        }
       },
       {
         "code": "321000",
         "name": "扬州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 119.412834,
-          "latitude": 32.394404
-        },
         "children": [
           {
             "code": "321002",
@@ -8131,16 +8123,16 @@
               "latitude": 32.781606
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 119.412834,
+          "latitude": 32.394404
+        }
       },
       {
         "code": "321100",
         "name": "镇江市",
         "level": "prefecture",
-        "center": {
-          "longitude": 119.424441,
-          "latitude": 32.188141
-        },
         "children": [
           {
             "code": "321102",
@@ -8196,16 +8188,16 @@
               "latitude": 31.945732
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 119.424441,
+          "latitude": 32.188141
+        }
       },
       {
         "code": "321200",
         "name": "泰州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 119.922883,
-          "latitude": 32.456692
-        },
         "children": [
           {
             "code": "321202",
@@ -8261,16 +8253,16 @@
               "latitude": 32.173072
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 119.922883,
+          "latitude": 32.456692
+        }
       },
       {
         "code": "321300",
         "name": "宿迁市",
         "level": "prefecture",
-        "center": {
-          "longitude": 118.275228,
-          "latitude": 33.963186
-        },
         "children": [
           {
             "code": "321302",
@@ -8317,27 +8309,27 @@
               "latitude": 33.476575
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 118.275228,
+          "latitude": 33.963186
+        }
       }
-    ]
+    ],
+    "center": {
+      "longitude": 118.763563,
+      "latitude": 32.061377
+    }
   },
   {
     "code": "330000",
     "name": "浙江省",
     "level": "province",
-    "center": {
-      "longitude": 120.152575,
-      "latitude": 30.266619
-    },
     "children": [
       {
         "code": "330100",
         "name": "杭州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 120.209903,
-          "latitude": 30.246566
-        },
         "children": [
           {
             "code": "330102",
@@ -8456,16 +8448,16 @@
               "latitude": 29.474964
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 120.209903,
+          "latitude": 30.246566
+        }
       },
       {
         "code": "330200",
         "name": "宁波市",
         "level": "prefecture",
-        "center": {
-          "longitude": 121.62454,
-          "latitude": 29.860258
-        },
         "children": [
           {
             "code": "330203",
@@ -8557,16 +8549,16 @@
               "latitude": 30.170695
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 121.62454,
+          "latitude": 29.860258
+        }
       },
       {
         "code": "330300",
         "name": "温州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 120.699279,
-          "latitude": 27.993849
-        },
         "children": [
           {
             "code": "330302",
@@ -8676,16 +8668,16 @@
               "latitude": 27.578379
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 120.699279,
+          "latitude": 27.993849
+        }
       },
       {
         "code": "330400",
         "name": "嘉兴市",
         "level": "prefecture",
-        "center": {
-          "longitude": 120.755623,
-          "latitude": 30.746814
-        },
         "children": [
           {
             "code": "330402",
@@ -8750,16 +8742,16 @@
               "latitude": 30.630375
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 120.755623,
+          "latitude": 30.746814
+        }
       },
       {
         "code": "330500",
         "name": "湖州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 120.086881,
-          "latitude": 30.894178
-        },
         "children": [
           {
             "code": "330502",
@@ -8806,16 +8798,16 @@
               "latitude": 30.638803
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 120.086881,
+          "latitude": 30.894178
+        }
       },
       {
         "code": "330600",
         "name": "绍兴市",
         "level": "prefecture",
-        "center": {
-          "longitude": 120.582886,
-          "latitude": 30.051549
-        },
         "children": [
           {
             "code": "330602",
@@ -8871,16 +8863,16 @@
               "latitude": 29.561519
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 120.582886,
+          "latitude": 30.051549
+        }
       },
       {
         "code": "330700",
         "name": "金华市",
         "level": "prefecture",
-        "center": {
-          "longitude": 119.647265,
-          "latitude": 29.079195
-        },
         "children": [
           {
             "code": "330702",
@@ -8963,16 +8955,16 @@
               "latitude": 28.88899
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 119.647265,
+          "latitude": 29.079195
+        }
       },
       {
         "code": "330800",
         "name": "衢州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 118.859307,
-          "latitude": 28.970229
-        },
         "children": [
           {
             "code": "330802",
@@ -9028,16 +9020,16 @@
               "latitude": 28.73796
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 118.859307,
+          "latitude": 28.970229
+        }
       },
       {
         "code": "330900",
         "name": "舟山市",
         "level": "prefecture",
-        "center": {
-          "longitude": 122.207395,
-          "latitude": 29.985578
-        },
         "children": [
           {
             "code": "330902",
@@ -9075,16 +9067,16 @@
               "latitude": 30.725677
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 122.207395,
+          "latitude": 29.985578
+        }
       },
       {
         "code": "331000",
         "name": "台州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 121.42079,
-          "latitude": 28.655716
-        },
         "children": [
           {
             "code": "331002",
@@ -9167,16 +9159,16 @@
               "latitude": 28.136703
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 121.42079,
+          "latitude": 28.655716
+        }
       },
       {
         "code": "331100",
         "name": "丽水市",
         "level": "prefecture",
-        "center": {
-          "longitude": 119.923249,
-          "latitude": 28.467694
-        },
         "children": [
           {
             "code": "331102",
@@ -9259,27 +9251,27 @@
               "latitude": 28.074916
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 119.923249,
+          "latitude": 28.467694
+        }
       }
-    ]
+    ],
+    "center": {
+      "longitude": 120.152575,
+      "latitude": 30.266619
+    }
   },
   {
     "code": "340000",
     "name": "安徽省",
     "level": "province",
-    "center": {
-      "longitude": 117.330139,
-      "latitude": 31.734559
-    },
     "children": [
       {
         "code": "340100",
         "name": "合肥市",
         "level": "prefecture",
-        "center": {
-          "longitude": 117.227267,
-          "latitude": 31.820567
-        },
         "children": [
           {
             "code": "340102",
@@ -9362,16 +9354,16 @@
               "latitude": 31.624464
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 117.227267,
+          "latitude": 31.820567
+        }
       },
       {
         "code": "340200",
         "name": "芜湖市",
         "level": "prefecture",
-        "center": {
-          "longitude": 118.433065,
-          "latitude": 31.352614
-        },
         "children": [
           {
             "code": "340202",
@@ -9436,16 +9428,16 @@
               "latitude": 31.304462
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 118.433065,
+          "latitude": 31.352614
+        }
       },
       {
         "code": "340300",
         "name": "蚌埠市",
         "level": "prefecture",
-        "center": {
-          "longitude": 117.388566,
-          "latitude": 32.91682
-        },
         "children": [
           {
             "code": "340302",
@@ -9510,16 +9502,16 @@
               "latitude": 33.318371
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 117.388566,
+          "latitude": 32.91682
+        }
       },
       {
         "code": "340400",
         "name": "淮南市",
         "level": "prefecture",
-        "center": {
-          "longitude": 117.018603,
-          "latitude": 32.585384
-        },
         "children": [
           {
             "code": "340402",
@@ -9584,16 +9576,16 @@
               "latitude": 32.545027
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 117.018603,
+          "latitude": 32.585384
+        }
       },
       {
         "code": "340500",
         "name": "马鞍山市",
         "level": "prefecture",
-        "center": {
-          "longitude": 118.50685,
-          "latitude": 31.668765
-        },
         "children": [
           {
             "code": "340503",
@@ -9649,16 +9641,16 @@
               "latitude": 31.74248
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 118.50685,
+          "latitude": 31.668765
+        }
       },
       {
         "code": "340600",
         "name": "淮北市",
         "level": "prefecture",
-        "center": {
-          "longitude": 116.798362,
-          "latitude": 33.956264
-        },
         "children": [
           {
             "code": "340602",
@@ -9696,16 +9688,16 @@
               "latitude": 33.915612
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 116.798362,
+          "latitude": 33.956264
+        }
       },
       {
         "code": "340700",
         "name": "铜陵市",
         "level": "prefecture",
-        "center": {
-          "longitude": 117.811298,
-          "latitude": 30.945214
-        },
         "children": [
           {
             "code": "340705",
@@ -9743,16 +9735,16 @@
               "latitude": 30.705466
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 117.811298,
+          "latitude": 30.945214
+        }
       },
       {
         "code": "340800",
         "name": "安庆市",
         "level": "prefecture",
-        "center": {
-          "longitude": 117.115349,
-          "latitude": 30.531828
-        },
         "children": [
           {
             "code": "340802",
@@ -9844,16 +9836,16 @@
               "latitude": 30.631022
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 117.115349,
+          "latitude": 30.531828
+        }
       },
       {
         "code": "341000",
         "name": "黄山市",
         "level": "prefecture",
-        "center": {
-          "longitude": 118.337643,
-          "latitude": 29.714886
-        },
         "children": [
           {
             "code": "341002",
@@ -9918,16 +9910,16 @@
               "latitude": 29.854179
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 118.337643,
+          "latitude": 29.714886
+        }
       },
       {
         "code": "341100",
         "name": "滁州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 118.333439,
-          "latitude": 32.255904
-        },
         "children": [
           {
             "code": "341102",
@@ -10001,16 +9993,16 @@
               "latitude": 32.78193
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 118.333439,
+          "latitude": 32.255904
+        }
       },
       {
         "code": "341200",
         "name": "阜阳市",
         "level": "prefecture",
-        "center": {
-          "longitude": 115.814252,
-          "latitude": 32.891032
-        },
         "children": [
           {
             "code": "341202",
@@ -10084,16 +10076,16 @@
               "latitude": 33.257799
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 115.814252,
+          "latitude": 32.891032
+        }
       },
       {
         "code": "341300",
         "name": "宿州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 116.96419,
-          "latitude": 33.647726
-        },
         "children": [
           {
             "code": "341302",
@@ -10140,16 +10132,16 @@
               "latitude": 33.483686
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 116.96419,
+          "latitude": 33.647726
+        }
       },
       {
         "code": "341500",
         "name": "六安市",
         "level": "prefecture",
-        "center": {
-          "longitude": 116.519729,
-          "latitude": 31.735892
-        },
         "children": [
           {
             "code": "341502",
@@ -10214,16 +10206,16 @@
               "latitude": 31.409668
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 116.519729,
+          "latitude": 31.735892
+        }
       },
       {
         "code": "341600",
         "name": "亳州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 115.778588,
-          "latitude": 33.846285
-        },
         "children": [
           {
             "code": "341602",
@@ -10261,16 +10253,16 @@
               "latitude": 33.158424
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 115.778588,
+          "latitude": 33.846285
+        }
       },
       {
         "code": "341700",
         "name": "池州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 117.495663,
-          "latitude": 30.674264
-        },
         "children": [
           {
             "code": "341702",
@@ -10308,16 +10300,16 @@
               "latitude": 30.639006
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 117.495663,
+          "latitude": 30.674264
+        }
       },
       {
         "code": "341800",
         "name": "宣城市",
         "level": "prefecture",
-        "center": {
-          "longitude": 118.759127,
-          "latitude": 30.939278
-        },
         "children": [
           {
             "code": "341802",
@@ -10382,27 +10374,27 @@
               "latitude": 30.877608
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 118.759127,
+          "latitude": 30.939278
+        }
       }
-    ]
+    ],
+    "center": {
+      "longitude": 117.330139,
+      "latitude": 31.734559
+    }
   },
   {
     "code": "350000",
     "name": "福建省",
     "level": "province",
-    "center": {
-      "longitude": 119.296194,
-      "latitude": 26.101082
-    },
     "children": [
       {
         "code": "350100",
         "name": "福州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 119.296411,
-          "latitude": 26.074286
-        },
         "children": [
           {
             "code": "350102",
@@ -10521,16 +10513,16 @@
               "latitude": 25.720081
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 119.296411,
+          "latitude": 26.074286
+        }
       },
       {
         "code": "350200",
         "name": "厦门市",
         "level": "prefecture",
-        "center": {
-          "longitude": 118.08891,
-          "latitude": 24.479627
-        },
         "children": [
           {
             "code": "350203",
@@ -10586,16 +10578,16 @@
               "latitude": 24.618583
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 118.08891,
+          "latitude": 24.479627
+        }
       },
       {
         "code": "350300",
         "name": "莆田市",
         "level": "prefecture",
-        "center": {
-          "longitude": 119.007662,
-          "latitude": 25.454202
-        },
         "children": [
           {
             "code": "350302",
@@ -10642,16 +10634,16 @@
               "latitude": 25.373373
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 119.007662,
+          "latitude": 25.454202
+        }
       },
       {
         "code": "350400",
         "name": "三明市",
         "level": "prefecture",
-        "center": {
-          "longitude": 117.638919,
-          "latitude": 26.263455
-        },
         "children": [
           {
             "code": "350404",
@@ -10752,16 +10744,16 @@
               "latitude": 25.941671
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 117.638919,
+          "latitude": 26.263455
+        }
       },
       {
         "code": "350500",
         "name": "泉州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 118.675724,
-          "latitude": 24.874452
-        },
         "children": [
           {
             "code": "350502",
@@ -10871,16 +10863,16 @@
               "latitude": 24.960056
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 118.675724,
+          "latitude": 24.874452
+        }
       },
       {
         "code": "350600",
         "name": "漳州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 117.647298,
-          "latitude": 24.515297
-        },
         "children": [
           {
             "code": "350602",
@@ -10981,16 +10973,16 @@
               "latitude": 25.00445
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 117.647298,
+          "latitude": 24.515297
+        }
       },
       {
         "code": "350700",
         "name": "南平市",
         "level": "prefecture",
-        "center": {
-          "longitude": 118.081325,
-          "latitude": 27.382829
-        },
         "children": [
           {
             "code": "350702",
@@ -11082,16 +11074,16 @@
               "latitude": 27.023233
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 118.081325,
+          "latitude": 27.382829
+        }
       },
       {
         "code": "350800",
         "name": "龙岩市",
         "level": "prefecture",
-        "center": {
-          "longitude": 117.017362,
-          "latitude": 25.075884
-        },
         "children": [
           {
             "code": "350802",
@@ -11156,16 +11148,16 @@
               "latitude": 25.290481
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 117.017362,
+          "latitude": 25.075884
+        }
       },
       {
         "code": "350900",
         "name": "宁德市",
         "level": "prefecture",
-        "center": {
-          "longitude": 119.547729,
-          "latitude": 26.666222
-        },
         "children": [
           {
             "code": "350902",
@@ -11248,27 +11240,27 @@
               "latitude": 27.324796
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 119.547729,
+          "latitude": 26.666222
+        }
       }
-    ]
+    ],
+    "center": {
+      "longitude": 119.296194,
+      "latitude": 26.101082
+    }
   },
   {
     "code": "360000",
     "name": "江西省",
     "level": "province",
-    "center": {
-      "longitude": 115.816587,
-      "latitude": 28.637234
-    },
     "children": [
       {
         "code": "360100",
         "name": "南昌市",
         "level": "prefecture",
-        "center": {
-          "longitude": 115.857972,
-          "latitude": 28.682976
-        },
         "children": [
           {
             "code": "360102",
@@ -11351,16 +11343,16 @@
               "latitude": 28.377627
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 115.857972,
+          "latitude": 28.682976
+        }
       },
       {
         "code": "360200",
         "name": "景德镇市",
         "level": "prefecture",
-        "center": {
-          "longitude": 117.184892,
-          "latitude": 29.2744
-        },
         "children": [
           {
             "code": "360202",
@@ -11398,16 +11390,16 @@
               "latitude": 28.978521
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 117.184892,
+          "latitude": 29.2744
+        }
       },
       {
         "code": "360300",
         "name": "萍乡市",
         "level": "prefecture",
-        "center": {
-          "longitude": 113.887147,
-          "latitude": 27.658721
-        },
         "children": [
           {
             "code": "360302",
@@ -11454,16 +11446,16 @@
               "latitude": 27.631273
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 113.887147,
+          "latitude": 27.658721
+        }
       },
       {
         "code": "360400",
         "name": "九江市",
         "level": "prefecture",
-        "center": {
-          "longitude": 115.95356,
-          "latitude": 29.66116
-        },
         "children": [
           {
             "code": "360402",
@@ -11582,16 +11574,16 @@
               "latitude": 29.448225
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 115.95356,
+          "latitude": 29.66116
+        }
       },
       {
         "code": "360500",
         "name": "新余市",
         "level": "prefecture",
-        "center": {
-          "longitude": 114.916665,
-          "latitude": 27.818553
-        },
         "children": [
           {
             "code": "360502",
@@ -11611,16 +11603,16 @@
               "latitude": 27.814723
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 114.916665,
+          "latitude": 27.818553
+        }
       },
       {
         "code": "360600",
         "name": "鹰潭市",
         "level": "prefecture",
-        "center": {
-          "longitude": 117.039532,
-          "latitude": 28.272092
-        },
         "children": [
           {
             "code": "360602",
@@ -11649,16 +11641,16 @@
               "latitude": 28.292397
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 117.039532,
+          "latitude": 28.272092
+        }
       },
       {
         "code": "360700",
         "name": "赣州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 114.933494,
-          "latitude": 25.831139
-        },
         "children": [
           {
             "code": "360702",
@@ -11822,16 +11814,16 @@
               "latitude": 24.901216
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 114.933494,
+          "latitude": 25.831139
+        }
       },
       {
         "code": "360800",
         "name": "吉安市",
         "level": "prefecture",
-        "center": {
-          "longitude": 114.96681,
-          "latitude": 27.091243
-        },
         "children": [
           {
             "code": "360802",
@@ -11950,16 +11942,16 @@
               "latitude": 26.748132
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 114.96681,
+          "latitude": 27.091243
+        }
       },
       {
         "code": "360900",
         "name": "宜春市",
         "level": "prefecture",
-        "center": {
-          "longitude": 114.416826,
-          "latitude": 27.816245
-        },
         "children": [
           {
             "code": "360902",
@@ -12051,16 +12043,16 @@
               "latitude": 28.448054
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 114.416826,
+          "latitude": 27.816245
+        }
       },
       {
         "code": "361000",
         "name": "抚州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 116.358054,
-          "latitude": 27.948979
-        },
         "children": [
           {
             "code": "361002",
@@ -12161,16 +12153,16 @@
               "latitude": 26.843974
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 116.358054,
+          "latitude": 27.948979
+        }
       },
       {
         "code": "361100",
         "name": "上饶市",
         "level": "prefecture",
-        "center": {
-          "longitude": 117.943064,
-          "latitude": 28.45513
-        },
         "children": [
           {
             "code": "361102",
@@ -12280,27 +12272,27 @@
               "latitude": 28.930557
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 117.943064,
+          "latitude": 28.45513
+        }
       }
-    ]
+    ],
+    "center": {
+      "longitude": 115.816587,
+      "latitude": 28.637234
+    }
   },
   {
     "code": "370000",
     "name": "山东省",
     "level": "province",
-    "center": {
-      "longitude": 117.020725,
-      "latitude": 36.670201
-    },
     "children": [
       {
         "code": "370100",
         "name": "济南市",
         "level": "prefecture",
-        "center": {
-          "longitude": 117.120128,
-          "latitude": 36.652069
-        },
         "children": [
           {
             "code": "370102",
@@ -12410,16 +12402,16 @@
               "latitude": 37.309694
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 117.120128,
+          "latitude": 36.652069
+        }
       },
       {
         "code": "370200",
         "name": "青岛市",
         "level": "prefecture",
-        "center": {
-          "longitude": 120.382665,
-          "latitude": 36.066938
-        },
         "children": [
           {
             "code": "370202",
@@ -12511,16 +12503,16 @@
               "latitude": 36.889167
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 120.382665,
+          "latitude": 36.066938
+        }
       },
       {
         "code": "370300",
         "name": "淄博市",
         "level": "prefecture",
-        "center": {
-          "longitude": 118.054994,
-          "latitude": 36.813787
-        },
         "children": [
           {
             "code": "370302",
@@ -12594,16 +12586,16 @@
               "latitude": 36.185402
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 118.054994,
+          "latitude": 36.813787
+        }
       },
       {
         "code": "370400",
         "name": "枣庄市",
         "level": "prefecture",
-        "center": {
-          "longitude": 117.323759,
-          "latitude": 34.810858
-        },
         "children": [
           {
             "code": "370402",
@@ -12659,16 +12651,16 @@
               "latitude": 35.11412
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 117.323759,
+          "latitude": 34.810858
+        }
       },
       {
         "code": "370500",
         "name": "东营市",
         "level": "prefecture",
-        "center": {
-          "longitude": 118.674633,
-          "latitude": 37.433992
-        },
         "children": [
           {
             "code": "370502",
@@ -12715,16 +12707,16 @@
               "latitude": 37.053915
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 118.674633,
+          "latitude": 37.433992
+        }
       },
       {
         "code": "370600",
         "name": "烟台市",
         "level": "prefecture",
-        "center": {
-          "longitude": 121.447755,
-          "latitude": 37.464551
-        },
         "children": [
           {
             "code": "370602",
@@ -12825,16 +12817,16 @@
               "latitude": 36.688316
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 121.447755,
+          "latitude": 37.464551
+        }
       },
       {
         "code": "370700",
         "name": "潍坊市",
         "level": "prefecture",
-        "center": {
-          "longitude": 119.161721,
-          "latitude": 36.707668
-        },
         "children": [
           {
             "code": "370702",
@@ -12944,16 +12936,16 @@
               "latitude": 36.843256
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 119.161721,
+          "latitude": 36.707668
+        }
       },
       {
         "code": "370800",
         "name": "济宁市",
         "level": "prefecture",
-        "center": {
-          "longitude": 116.587116,
-          "latitude": 35.415117
-        },
         "children": [
           {
             "code": "370811",
@@ -13054,16 +13046,16 @@
               "latitude": 35.402536
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 116.587116,
+          "latitude": 35.415117
+        }
       },
       {
         "code": "370900",
         "name": "泰安市",
         "level": "prefecture",
-        "center": {
-          "longitude": 117.086963,
-          "latitude": 36.201784
-        },
         "children": [
           {
             "code": "370902",
@@ -13119,16 +13111,16 @@
               "latitude": 36.181975
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 117.086963,
+          "latitude": 36.201784
+        }
       },
       {
         "code": "371000",
         "name": "威海市",
         "level": "prefecture",
-        "center": {
-          "longitude": 122.120519,
-          "latitude": 37.513315
-        },
         "children": [
           {
             "code": "371002",
@@ -13166,16 +13158,16 @@
               "latitude": 36.920329
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 122.120519,
+          "latitude": 37.513315
+        }
       },
       {
         "code": "371100",
         "name": "日照市",
         "level": "prefecture",
-        "center": {
-          "longitude": 119.52685,
-          "latitude": 35.416912
-        },
         "children": [
           {
             "code": "371102",
@@ -13213,16 +13205,16 @@
               "latitude": 35.59125
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 119.52685,
+          "latitude": 35.416912
+        }
       },
       {
         "code": "371300",
         "name": "临沂市",
         "level": "prefecture",
-        "center": {
-          "longitude": 118.356464,
-          "latitude": 35.103771
-        },
         "children": [
           {
             "code": "371302",
@@ -13332,16 +13324,16 @@
               "latitude": 34.920171
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 118.356464,
+          "latitude": 35.103771
+        }
       },
       {
         "code": "371400",
         "name": "德州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 116.359244,
-          "latitude": 37.436492
-        },
         "children": [
           {
             "code": "371402",
@@ -13442,16 +13434,16 @@
               "latitude": 36.934198
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 116.359244,
+          "latitude": 37.436492
+        }
       },
       {
         "code": "371500",
         "name": "聊城市",
         "level": "prefecture",
-        "center": {
-          "longitude": 115.985238,
-          "latitude": 36.455857
-        },
         "children": [
           {
             "code": "371502",
@@ -13525,16 +13517,16 @@
               "latitude": 36.83828
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 115.985238,
+          "latitude": 36.455857
+        }
       },
       {
         "code": "371600",
         "name": "滨州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 117.970731,
-          "latitude": 37.382687
-        },
         "children": [
           {
             "code": "371602",
@@ -13599,16 +13591,16 @@
               "latitude": 36.863393
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 117.970731,
+          "latitude": 37.382687
+        }
       },
       {
         "code": "371700",
         "name": "菏泽市",
         "level": "prefecture",
-        "center": {
-          "longitude": 115.479646,
-          "latitude": 35.234309
-        },
         "children": [
           {
             "code": "371702",
@@ -13691,27 +13683,27 @@
               "latitude": 35.275664
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 115.479646,
+          "latitude": 35.234309
+        }
       }
-    ]
+    ],
+    "center": {
+      "longitude": 117.020725,
+      "latitude": 36.670201
+    }
   },
   {
     "code": "410000",
     "name": "河南省",
     "level": "province",
-    "center": {
-      "longitude": 113.753094,
-      "latitude": 34.767052
-    },
     "children": [
       {
         "code": "410100",
         "name": "郑州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 113.625351,
-          "latitude": 34.746303
-        },
         "children": [
           {
             "code": "410102",
@@ -13821,16 +13813,16 @@
               "latitude": 34.454877
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 113.625351,
+          "latitude": 34.746303
+        }
       },
       {
         "code": "410200",
         "name": "开封市",
         "level": "prefecture",
-        "center": {
-          "longitude": 114.314278,
-          "latitude": 34.798083
-        },
         "children": [
           {
             "code": "410202",
@@ -13913,16 +13905,16 @@
               "latitude": 34.856372
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 114.314278,
+          "latitude": 34.798083
+        }
       },
       {
         "code": "410300",
         "name": "洛阳市",
         "level": "prefecture",
-        "center": {
-          "longitude": 112.453895,
-          "latitude": 34.619702
-        },
         "children": [
           {
             "code": "410302",
@@ -14050,16 +14042,16 @@
               "latitude": 34.421741
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 112.453895,
+          "latitude": 34.619702
+        }
       },
       {
         "code": "410400",
         "name": "平顶山市",
         "level": "prefecture",
-        "center": {
-          "longitude": 113.192595,
-          "latitude": 33.766554
-        },
         "children": [
           {
             "code": "410402",
@@ -14151,16 +14143,16 @@
               "latitude": 34.16717
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 113.192595,
+          "latitude": 33.766554
+        }
       },
       {
         "code": "410500",
         "name": "安阳市",
         "level": "prefecture",
-        "center": {
-          "longitude": 114.39248,
-          "latitude": 36.098779
-        },
         "children": [
           {
             "code": "410502",
@@ -14243,16 +14235,16 @@
               "latitude": 36.084127
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 114.39248,
+          "latitude": 36.098779
+        }
       },
       {
         "code": "410600",
         "name": "鹤壁市",
         "level": "prefecture",
-        "center": {
-          "longitude": 114.297305,
-          "latitude": 35.748329
-        },
         "children": [
           {
             "code": "410602",
@@ -14299,16 +14291,16 @@
               "latitude": 35.622571
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 114.297305,
+          "latitude": 35.748329
+        }
       },
       {
         "code": "410700",
         "name": "新乡市",
         "level": "prefecture",
-        "center": {
-          "longitude": 113.92679,
-          "latitude": 35.303589
-        },
         "children": [
           {
             "code": "410702",
@@ -14418,16 +14410,16 @@
               "latitude": 35.201628
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 113.92679,
+          "latitude": 35.303589
+        }
       },
       {
         "code": "410800",
         "name": "焦作市",
         "level": "prefecture",
-        "center": {
-          "longitude": 113.241902,
-          "latitude": 35.215726
-        },
         "children": [
           {
             "code": "410802",
@@ -14519,16 +14511,16 @@
               "latitude": 34.907229
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 113.241902,
+          "latitude": 35.215726
+        }
       },
       {
         "code": "410900",
         "name": "濮阳市",
         "level": "prefecture",
-        "center": {
-          "longitude": 115.029246,
-          "latitude": 35.762731
-        },
         "children": [
           {
             "code": "410902",
@@ -14584,16 +14576,16 @@
               "latitude": 35.713113
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 115.029246,
+          "latitude": 35.762731
+        }
       },
       {
         "code": "411000",
         "name": "许昌市",
         "level": "prefecture",
-        "center": {
-          "longitude": 113.852004,
-          "latitude": 34.03732
-        },
         "children": [
           {
             "code": "411002",
@@ -14649,16 +14641,16 @@
               "latitude": 34.195458
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 113.852004,
+          "latitude": 34.03732
+        }
       },
       {
         "code": "411100",
         "name": "漯河市",
         "level": "prefecture",
-        "center": {
-          "longitude": 114.0166,
-          "latitude": 33.58038
-        },
         "children": [
           {
             "code": "411102",
@@ -14705,16 +14697,16 @@
               "latitude": 33.828096
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 114.0166,
+          "latitude": 33.58038
+        }
       },
       {
         "code": "411200",
         "name": "三门峡市",
         "level": "prefecture",
-        "center": {
-          "longitude": 111.200482,
-          "latitude": 34.773196
-        },
         "children": [
           {
             "code": "411202",
@@ -14770,16 +14762,16 @@
               "latitude": 34.517734
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 111.200482,
+          "latitude": 34.773196
+        }
       },
       {
         "code": "411300",
         "name": "南阳市",
         "level": "prefecture",
-        "center": {
-          "longitude": 112.584753,
-          "latitude": 33.016102
-        },
         "children": [
           {
             "code": "411302",
@@ -14898,16 +14890,16 @@
               "latitude": 32.687732
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 112.584753,
+          "latitude": 33.016102
+        }
       },
       {
         "code": "411400",
         "name": "商丘市",
         "level": "prefecture",
-        "center": {
-          "longitude": 115.656358,
-          "latitude": 34.415165
-        },
         "children": [
           {
             "code": "411402",
@@ -14990,16 +14982,16 @@
               "latitude": 33.929927
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 115.656358,
+          "latitude": 34.415165
+        }
       },
       {
         "code": "411500",
         "name": "信阳市",
         "level": "prefecture",
-        "center": {
-          "longitude": 114.091058,
-          "latitude": 32.148624
-        },
         "children": [
           {
             "code": "411502",
@@ -15091,16 +15083,16 @@
               "latitude": 32.34312
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 114.091058,
+          "latitude": 32.148624
+        }
       },
       {
         "code": "411600",
         "name": "周口市",
         "level": "prefecture",
-        "center": {
-          "longitude": 114.701222,
-          "latitude": 33.634652
-        },
         "children": [
           {
             "code": "411602",
@@ -15192,16 +15184,16 @@
               "latitude": 33.465609
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 114.701222,
+          "latitude": 33.634652
+        }
       },
       {
         "code": "411700",
         "name": "驻马店市",
         "level": "prefecture",
-        "center": {
-          "longitude": 114.021988,
-          "latitude": 33.014038
-        },
         "children": [
           {
             "code": "411702",
@@ -15293,36 +15285,36 @@
               "latitude": 32.74488
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 114.021988,
+          "latitude": 33.014038
+        }
       },
       {
         "code": "419001",
         "name": "济源市*",
         "level": "county",
         "center": {
-          "longitude": 112.508612,
-          "latitude": 35.024328
+          "longitude": 112.602347,
+          "latitude": 35.069057
         }
       }
-    ]
+    ],
+    "center": {
+      "longitude": 113.753094,
+      "latitude": 34.767052
+    }
   },
   {
     "code": "420000",
     "name": "湖北省",
     "level": "province",
-    "center": {
-      "longitude": 114.341552,
-      "latitude": 30.546222
-    },
     "children": [
       {
         "code": "420100",
         "name": "武汉市",
         "level": "prefecture",
-        "center": {
-          "longitude": 114.304569,
-          "latitude": 30.593354
-        },
         "children": [
           {
             "code": "420102",
@@ -15441,16 +15433,16 @@
               "latitude": 30.841304
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 114.304569,
+          "latitude": 30.593354
+        }
       },
       {
         "code": "420200",
         "name": "黄石市",
         "level": "prefecture",
-        "center": {
-          "longitude": 115.038999,
-          "latitude": 30.201082
-        },
         "children": [
           {
             "code": "420202",
@@ -15506,16 +15498,16 @@
               "latitude": 30.096263
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 115.038999,
+          "latitude": 30.201082
+        }
       },
       {
         "code": "420300",
         "name": "十堰市",
         "level": "prefecture",
-        "center": {
-          "longitude": 110.798921,
-          "latitude": 32.629057
-        },
         "children": [
           {
             "code": "420302",
@@ -15589,16 +15581,16 @@
               "latitude": 32.540287
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 110.798921,
+          "latitude": 32.629057
+        }
       },
       {
         "code": "420500",
         "name": "宜昌市",
         "level": "prefecture",
-        "center": {
-          "longitude": 111.286962,
-          "latitude": 30.69217
-        },
         "children": [
           {
             "code": "420502",
@@ -15717,16 +15709,16 @@
               "latitude": 30.425758
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 111.286962,
+          "latitude": 30.69217
+        }
       },
       {
         "code": "420600",
         "name": "襄阳市",
         "level": "prefecture",
-        "center": {
-          "longitude": 112.121743,
-          "latitude": 32.010161
-        },
         "children": [
           {
             "code": "420602",
@@ -15809,16 +15801,16 @@
               "latitude": 31.720278
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 112.121743,
+          "latitude": 32.010161
+        }
       },
       {
         "code": "420700",
         "name": "鄂州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 114.894909,
-          "latitude": 30.391461
-        },
         "children": [
           {
             "code": "420702",
@@ -15847,16 +15839,16 @@
               "latitude": 30.400535
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 114.894909,
+          "latitude": 30.391461
+        }
       },
       {
         "code": "420800",
         "name": "荆门市",
         "level": "prefecture",
-        "center": {
-          "longitude": 112.199009,
-          "latitude": 31.035445
-        },
         "children": [
           {
             "code": "420802",
@@ -15903,16 +15895,16 @@
               "latitude": 31.018414
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 112.199009,
+          "latitude": 31.035445
+        }
       },
       {
         "code": "420900",
         "name": "孝感市",
         "level": "prefecture",
-        "center": {
-          "longitude": 113.956962,
-          "latitude": 30.918311
-        },
         "children": [
           {
             "code": "420902",
@@ -15977,16 +15969,16 @@
               "latitude": 30.673219
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 113.956962,
+          "latitude": 30.918311
+        }
       },
       {
         "code": "421000",
         "name": "荆州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 112.24143,
-          "latitude": 30.336282
-        },
         "children": [
           {
             "code": "421002",
@@ -16060,16 +16052,16 @@
               "latitude": 29.840229
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 112.24143,
+          "latitude": 30.336282
+        }
       },
       {
         "code": "421100",
         "name": "黄冈市",
         "level": "prefecture",
-        "center": {
-          "longitude": 114.872425,
-          "latitude": 30.453722
-        },
         "children": [
           {
             "code": "421102",
@@ -16161,16 +16153,16 @@
               "latitude": 29.869602
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 114.872425,
+          "latitude": 30.453722
+        }
       },
       {
         "code": "421200",
         "name": "咸宁市",
         "level": "prefecture",
-        "center": {
-          "longitude": 114.322601,
-          "latitude": 29.84135
-        },
         "children": [
           {
             "code": "421202",
@@ -16226,16 +16218,16 @@
               "latitude": 29.725122
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 114.322601,
+          "latitude": 29.84135
+        }
       },
       {
         "code": "421300",
         "name": "随州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 113.382324,
-          "latitude": 31.690275
-        },
         "children": [
           {
             "code": "421303",
@@ -16264,16 +16256,16 @@
               "latitude": 31.617015
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 113.382324,
+          "latitude": 31.690275
+        }
       },
       {
         "code": "422800",
         "name": "恩施土家族苗族自治州",
         "level": "prefecture",
-        "center": {
-          "longitude": 109.488076,
-          "latitude": 30.272104
-        },
         "children": [
           {
             "code": "422801",
@@ -16347,15 +16339,19 @@
               "latitude": 29.890073
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 109.488076,
+          "latitude": 30.272104
+        }
       },
       {
         "code": "429004",
         "name": "仙桃市*",
         "level": "county",
         "center": {
-          "longitude": 112.98767,
-          "latitude": 30.375691
+          "longitude": 113.442973,
+          "latitude": 30.328407
         }
       },
       {
@@ -16363,8 +16359,8 @@
         "name": "潜江市*",
         "level": "county",
         "center": {
-          "longitude": 112.566899,
-          "latitude": 30.307792
+          "longitude": 112.900279,
+          "latitude": 30.401954
         }
       },
       {
@@ -16372,8 +16368,8 @@
         "name": "天门市*",
         "level": "county",
         "center": {
-          "longitude": 112.749108,
-          "latitude": 30.776358
+          "longitude": 113.166545,
+          "latitude": 30.663706
         }
       },
       {
@@ -16381,29 +16377,25 @@
         "name": "神农架林区*",
         "level": "county",
         "center": {
-          "longitude": 110.106251,
-          "latitude": 31.408207
+          "longitude": 110.675879,
+          "latitude": 31.745103
         }
       }
-    ]
+    ],
+    "center": {
+      "longitude": 114.341552,
+      "latitude": 30.546222
+    }
   },
   {
     "code": "430000",
     "name": "湖南省",
     "level": "province",
-    "center": {
-      "longitude": 112.982951,
-      "latitude": 28.116007
-    },
     "children": [
       {
         "code": "430100",
         "name": "长沙市",
         "level": "prefecture",
-        "center": {
-          "longitude": 112.938882,
-          "latitude": 28.228304
-        },
         "children": [
           {
             "code": "430102",
@@ -16486,16 +16478,16 @@
               "latitude": 28.277709
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 112.938882,
+          "latitude": 28.228304
+        }
       },
       {
         "code": "430200",
         "name": "株洲市",
         "level": "prefecture",
-        "center": {
-          "longitude": 113.132783,
-          "latitude": 27.828862
-        },
         "children": [
           {
             "code": "430202",
@@ -16578,16 +16570,16 @@
               "latitude": 27.6457
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 113.132783,
+          "latitude": 27.828862
+        }
       },
       {
         "code": "430300",
         "name": "湘潭市",
         "level": "prefecture",
-        "center": {
-          "longitude": 112.945439,
-          "latitude": 27.83136
-        },
         "children": [
           {
             "code": "430302",
@@ -16634,16 +16626,16 @@
               "latitude": 27.914796
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 112.945439,
+          "latitude": 27.83136
+        }
       },
       {
         "code": "430400",
         "name": "衡阳市",
         "level": "prefecture",
-        "center": {
-          "longitude": 112.572016,
-          "latitude": 26.894216
-        },
         "children": [
           {
             "code": "430405",
@@ -16753,16 +16745,16 @@
               "latitude": 26.421717
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 112.572016,
+          "latitude": 26.894216
+        }
       },
       {
         "code": "430500",
         "name": "邵阳市",
         "level": "prefecture",
-        "center": {
-          "longitude": 111.467855,
-          "latitude": 27.239528
-        },
         "children": [
           {
             "code": "430502",
@@ -16872,16 +16864,16 @@
               "latitude": 27.259812
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 111.467855,
+          "latitude": 27.239528
+        }
       },
       {
         "code": "430600",
         "name": "岳阳市",
         "level": "prefecture",
-        "center": {
-          "longitude": 113.128922,
-          "latitude": 29.35648
-        },
         "children": [
           {
             "code": "430602",
@@ -16964,16 +16956,16 @@
               "latitude": 29.476687
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 113.128922,
+          "latitude": 29.35648
+        }
       },
       {
         "code": "430700",
         "name": "常德市",
         "level": "prefecture",
-        "center": {
-          "longitude": 111.69905,
-          "latitude": 29.031446
-        },
         "children": [
           {
             "code": "430702",
@@ -17056,16 +17048,16 @@
               "latitude": 29.606512
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 111.69905,
+          "latitude": 29.031446
+        }
       },
       {
         "code": "430800",
         "name": "张家界市",
         "level": "prefecture",
-        "center": {
-          "longitude": 110.478887,
-          "latitude": 29.117343
-        },
         "children": [
           {
             "code": "430802",
@@ -17103,16 +17095,16 @@
               "latitude": 29.414112
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 110.478887,
+          "latitude": 29.117343
+        }
       },
       {
         "code": "430900",
         "name": "益阳市",
         "level": "prefecture",
-        "center": {
-          "longitude": 112.355994,
-          "latitude": 28.554853
-        },
         "children": [
           {
             "code": "430902",
@@ -17168,16 +17160,16 @@
               "latitude": 28.845755
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 112.355994,
+          "latitude": 28.554853
+        }
       },
       {
         "code": "431000",
         "name": "郴州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 113.015517,
-          "latitude": 25.770117
-        },
         "children": [
           {
             "code": "431002",
@@ -17278,16 +17270,16 @@
               "latitude": 25.977226
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 113.015517,
+          "latitude": 25.770117
+        }
       },
       {
         "code": "431100",
         "name": "永州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 111.613482,
-          "latitude": 26.419861
-        },
         "children": [
           {
             "code": "431102",
@@ -17388,16 +17380,16 @@
               "latitude": 26.580292
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 111.613482,
+          "latitude": 26.419861
+        }
       },
       {
         "code": "431200",
         "name": "怀化市",
         "level": "prefecture",
-        "center": {
-          "longitude": 110.001598,
-          "latitude": 27.569813
-        },
         "children": [
           {
             "code": "431202",
@@ -17507,16 +17499,16 @@
               "latitude": 27.209385
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 110.001598,
+          "latitude": 27.569813
+        }
       },
       {
         "code": "431300",
         "name": "娄底市",
         "level": "prefecture",
-        "center": {
-          "longitude": 111.994468,
-          "latitude": 27.699838
-        },
         "children": [
           {
             "code": "431302",
@@ -17563,16 +17555,16 @@
               "latitude": 27.693813
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 111.994468,
+          "latitude": 27.699838
+        }
       },
       {
         "code": "433100",
         "name": "湘西土家族苗族自治州",
         "level": "prefecture",
-        "center": {
-          "longitude": 109.673345,
-          "latitude": 28.215983
-        },
         "children": [
           {
             "code": "433101",
@@ -17646,27 +17638,27 @@
               "latitude": 29.457623
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 109.673345,
+          "latitude": 28.215983
+        }
       }
-    ]
+    ],
+    "center": {
+      "longitude": 112.982951,
+      "latitude": 28.116007
+    }
   },
   {
     "code": "440000",
     "name": "广东省",
     "level": "province",
-    "center": {
-      "longitude": 113.266887,
-      "latitude": 23.133306
-    },
     "children": [
       {
         "code": "440100",
         "name": "广州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 113.264499,
-          "latitude": 23.130061
-        },
         "children": [
           {
             "code": "440103",
@@ -17767,16 +17759,16 @@
               "latitude": 23.261452
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 113.264499,
+          "latitude": 23.130061
+        }
       },
       {
         "code": "440200",
         "name": "韶关市",
         "level": "prefecture",
-        "center": {
-          "longitude": 113.597324,
-          "latitude": 24.810977
-        },
         "children": [
           {
             "code": "440203",
@@ -17868,16 +17860,16 @@
               "latitude": 25.117653
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 113.597324,
+          "latitude": 24.810977
+        }
       },
       {
         "code": "440300",
         "name": "深圳市",
         "level": "prefecture",
-        "center": {
-          "longitude": 114.057939,
-          "latitude": 22.543527
-        },
         "children": [
           {
             "code": "440303",
@@ -17960,16 +17952,16 @@
               "latitude": 22.744136
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 114.057939,
+          "latitude": 22.543527
+        }
       },
       {
         "code": "440400",
         "name": "珠海市",
         "level": "prefecture",
-        "center": {
-          "longitude": 113.576892,
-          "latitude": 22.271644
-        },
         "children": [
           {
             "code": "440402",
@@ -17998,16 +17990,16 @@
               "latitude": 22.146717
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 113.576892,
+          "latitude": 22.271644
+        }
       },
       {
         "code": "440500",
         "name": "汕头市",
         "level": "prefecture",
-        "center": {
-          "longitude": 116.681956,
-          "latitude": 23.354152
-        },
         "children": [
           {
             "code": "440507",
@@ -18072,16 +18064,16 @@
               "latitude": 23.421658
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 116.681956,
+          "latitude": 23.354152
+        }
       },
       {
         "code": "440600",
         "name": "佛山市",
         "level": "prefecture",
-        "center": {
-          "longitude": 113.121586,
-          "latitude": 23.021351
-        },
         "children": [
           {
             "code": "440604",
@@ -18128,16 +18120,16 @@
               "latitude": 22.900047
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 113.121586,
+          "latitude": 23.021351
+        }
       },
       {
         "code": "440700",
         "name": "江门市",
         "level": "prefecture",
-        "center": {
-          "longitude": 113.081548,
-          "latitude": 22.578948
-        },
         "children": [
           {
             "code": "440703",
@@ -18202,16 +18194,16 @@
               "latitude": 22.183743
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 113.081548,
+          "latitude": 22.578948
+        }
       },
       {
         "code": "440800",
         "name": "湛江市",
         "level": "prefecture",
-        "center": {
-          "longitude": 110.357538,
-          "latitude": 21.270108
-        },
         "children": [
           {
             "code": "440802",
@@ -18294,16 +18286,16 @@
               "latitude": 21.440763
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 110.357538,
+          "latitude": 21.270108
+        }
       },
       {
         "code": "440900",
         "name": "茂名市",
         "level": "prefecture",
-        "center": {
-          "longitude": 110.925533,
-          "latitude": 21.662728
-        },
         "children": [
           {
             "code": "440902",
@@ -18350,16 +18342,16 @@
               "latitude": 22.354887
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 110.925533,
+          "latitude": 21.662728
+        }
       },
       {
         "code": "441200",
         "name": "肇庆市",
         "level": "prefecture",
-        "center": {
-          "longitude": 112.465245,
-          "latitude": 23.047747
-        },
         "children": [
           {
             "code": "441202",
@@ -18433,16 +18425,16 @@
               "latitude": 23.326991
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 112.465245,
+          "latitude": 23.047747
+        }
       },
       {
         "code": "441300",
         "name": "惠州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 114.415587,
-          "latitude": 23.112368
-        },
         "children": [
           {
             "code": "441302",
@@ -18489,16 +18481,16 @@
               "latitude": 23.727873
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 114.415587,
+          "latitude": 23.112368
+        }
       },
       {
         "code": "441400",
         "name": "梅州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 116.122046,
-          "latitude": 24.288832
-        },
         "children": [
           {
             "code": "441402",
@@ -18572,16 +18564,16 @@
               "latitude": 24.137296
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 116.122046,
+          "latitude": 24.288832
+        }
       },
       {
         "code": "441500",
         "name": "汕尾市",
         "level": "prefecture",
-        "center": {
-          "longitude": 115.375557,
-          "latitude": 22.787204
-        },
         "children": [
           {
             "code": "441502",
@@ -18619,16 +18611,16 @@
               "latitude": 22.91874
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 115.375557,
+          "latitude": 22.787204
+        }
       },
       {
         "code": "441600",
         "name": "河源市",
         "level": "prefecture",
-        "center": {
-          "longitude": 114.700215,
-          "latitude": 23.744276
-        },
         "children": [
           {
             "code": "441602",
@@ -18684,16 +18676,16 @@
               "latitude": 23.790079
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 114.700215,
+          "latitude": 23.744276
+        }
       },
       {
         "code": "441700",
         "name": "阳江市",
         "level": "prefecture",
-        "center": {
-          "longitude": 111.98343,
-          "latitude": 21.856853
-        },
         "children": [
           {
             "code": "441702",
@@ -18731,16 +18723,16 @@
               "latitude": 22.17041
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 111.98343,
+          "latitude": 21.856853
+        }
       },
       {
         "code": "441800",
         "name": "清远市",
         "level": "prefecture",
-        "center": {
-          "longitude": 113.056098,
-          "latitude": 23.682064
-        },
         "children": [
           {
             "code": "441802",
@@ -18814,15 +18806,19 @@
               "latitude": 24.780873
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 113.056098,
+          "latitude": 23.682064
+        }
       },
       {
         "code": "441900",
         "name": "东莞市",
         "level": "prefecture",
         "center": {
-          "longitude": 113.82903,
-          "latitude": 22.959884
+          "longitude": 113.751884,
+          "latitude": 23.021016
         }
       },
       {
@@ -18830,18 +18826,14 @@
         "name": "中山市",
         "level": "prefecture",
         "center": {
-          "longitude": 113.489502,
-          "latitude": 22.524345
+          "longitude": 113.392517,
+          "latitude": 22.517024
         }
       },
       {
         "code": "445100",
         "name": "潮州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 116.621901,
-          "latitude": 23.657662
-        },
         "children": [
           {
             "code": "445102",
@@ -18870,16 +18862,16 @@
               "latitude": 23.663294
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 116.621901,
+          "latitude": 23.657662
+        }
       },
       {
         "code": "445200",
         "name": "揭阳市",
         "level": "prefecture",
-        "center": {
-          "longitude": 116.372732,
-          "latitude": 23.550968
-        },
         "children": [
           {
             "code": "445202",
@@ -18926,16 +18918,16 @@
               "latitude": 23.297742
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 116.372732,
+          "latitude": 23.550968
+        }
       },
       {
         "code": "445300",
         "name": "云浮市",
         "level": "prefecture",
-        "center": {
-          "longitude": 112.044524,
-          "latitude": 22.915163
-        },
         "children": [
           {
             "code": "445302",
@@ -18982,27 +18974,27 @@
               "latitude": 22.768345
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 112.044524,
+          "latitude": 22.915163
+        }
       }
-    ]
+    ],
+    "center": {
+      "longitude": 113.266887,
+      "latitude": 23.133306
+    }
   },
   {
     "code": "450000",
     "name": "广西壮族自治区",
     "level": "province",
-    "center": {
-      "longitude": 108.327537,
-      "latitude": 22.816659
-    },
     "children": [
       {
         "code": "450100",
         "name": "南宁市",
         "level": "prefecture",
-        "center": {
-          "longitude": 108.366407,
-          "latitude": 22.8177
-        },
         "children": [
           {
             "code": "450102",
@@ -19112,16 +19104,16 @@
               "latitude": 22.681257
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 108.366407,
+          "latitude": 22.8177
+        }
       },
       {
         "code": "450200",
         "name": "柳州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 109.428071,
-          "latitude": 24.326442
-        },
         "children": [
           {
             "code": "450202",
@@ -19213,16 +19205,16 @@
               "latitude": 25.783197
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 109.428071,
+          "latitude": 24.326442
+        }
       },
       {
         "code": "450300",
         "name": "桂林市",
         "level": "prefecture",
-        "center": {
-          "longitude": 110.179752,
-          "latitude": 25.235615
-        },
         "children": [
           {
             "code": "450302",
@@ -19377,16 +19369,16 @@
               "latitude": 24.48843
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 110.179752,
+          "latitude": 25.235615
+        }
       },
       {
         "code": "450400",
         "name": "梧州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 111.279022,
-          "latitude": 23.476733
-        },
         "children": [
           {
             "code": "450403",
@@ -19451,16 +19443,16 @@
               "latitude": 22.918327
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 111.279022,
+          "latitude": 23.476733
+        }
       },
       {
         "code": "450500",
         "name": "北海市",
         "level": "prefecture",
-        "center": {
-          "longitude": 109.120248,
-          "latitude": 21.481305
-        },
         "children": [
           {
             "code": "450502",
@@ -19498,16 +19490,16 @@
               "latitude": 21.66132
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 109.120248,
+          "latitude": 21.481305
+        }
       },
       {
         "code": "450600",
         "name": "防城港市",
         "level": "prefecture",
-        "center": {
-          "longitude": 108.35467,
-          "latitude": 21.686732
-        },
         "children": [
           {
             "code": "450602",
@@ -19545,16 +19537,16 @@
               "latitude": 21.547821
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 108.35467,
+          "latitude": 21.686732
+        }
       },
       {
         "code": "450700",
         "name": "钦州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 108.654355,
-          "latitude": 21.980894
-        },
         "children": [
           {
             "code": "450702",
@@ -19592,16 +19584,16 @@
               "latitude": 22.271902
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 108.654355,
+          "latitude": 21.980894
+        }
       },
       {
         "code": "450800",
         "name": "贵港市",
         "level": "prefecture",
-        "center": {
-          "longitude": 109.598903,
-          "latitude": 23.11182
-        },
         "children": [
           {
             "code": "450802",
@@ -19648,16 +19640,16 @@
               "latitude": 23.394208
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 109.598903,
+          "latitude": 23.11182
+        }
       },
       {
         "code": "450900",
         "name": "玉林市",
         "level": "prefecture",
-        "center": {
-          "longitude": 110.18097,
-          "latitude": 22.654001
-        },
         "children": [
           {
             "code": "450902",
@@ -19722,16 +19714,16 @@
               "latitude": 22.708415
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 110.18097,
+          "latitude": 22.654001
+        }
       },
       {
         "code": "451000",
         "name": "百色市",
         "level": "prefecture",
-        "center": {
-          "longitude": 106.61869,
-          "latitude": 23.90307
-        },
         "children": [
           {
             "code": "451002",
@@ -19841,16 +19833,16 @@
               "latitude": 23.329815
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 106.61869,
+          "latitude": 23.90307
+        }
       },
       {
         "code": "451100",
         "name": "贺州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 111.567216,
-          "latitude": 24.404182
-        },
         "children": [
           {
             "code": "451102",
@@ -19897,16 +19889,16 @@
               "latitude": 24.811601
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 111.567216,
+          "latitude": 24.404182
+        }
       },
       {
         "code": "451200",
         "name": "河池市",
         "level": "prefecture",
-        "center": {
-          "longitude": 108.63639,
-          "latitude": 24.48523
-        },
         "children": [
           {
             "code": "451202",
@@ -20007,16 +19999,16 @@
               "latitude": 23.735699
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 108.63639,
+          "latitude": 24.48523
+        }
       },
       {
         "code": "451300",
         "name": "来宾市",
         "level": "prefecture",
-        "center": {
-          "longitude": 109.221243,
-          "latitude": 23.750105
-        },
         "children": [
           {
             "code": "451302",
@@ -20072,16 +20064,16 @@
               "latitude": 23.807032
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 109.221243,
+          "latitude": 23.750105
+        }
       },
       {
         "code": "451400",
         "name": "崇左市",
         "level": "prefecture",
-        "center": {
-          "longitude": 107.364973,
-          "latitude": 22.377139
-        },
         "children": [
           {
             "code": "451402",
@@ -20146,27 +20138,27 @@
               "latitude": 22.094421
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 107.364973,
+          "latitude": 22.377139
+        }
       }
-    ]
+    ],
+    "center": {
+      "longitude": 108.327537,
+      "latitude": 22.816659
+    }
   },
   {
     "code": "460000",
     "name": "海南省",
     "level": "province",
-    "center": {
-      "longitude": 110.348781,
-      "latitude": 20.018639
-    },
     "children": [
       {
         "code": "460100",
         "name": "海口市",
         "level": "prefecture",
-        "center": {
-          "longitude": 110.200162,
-          "latitude": 20.046316
-        },
         "children": [
           {
             "code": "460105",
@@ -20204,16 +20196,16 @@
               "latitude": 20.028983
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 110.200162,
+          "latitude": 20.046316
+        }
       },
       {
         "code": "460200",
         "name": "三亚市",
         "level": "prefecture",
-        "center": {
-          "longitude": 109.511709,
-          "latitude": 18.252865
-        },
         "children": [
           {
             "code": "460202",
@@ -20251,7 +20243,11 @@
               "latitude": 18.357572
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 109.511709,
+          "latitude": 18.252865
+        }
       },
       {
         "code": "460300",
@@ -20267,8 +20263,8 @@
         "name": "儋州市",
         "level": "prefecture",
         "center": {
-          "longitude": 109.555399,
-          "latitude": 19.50096
+          "longitude": 109.580812,
+          "latitude": 19.520948
         }
       },
       {
@@ -20276,8 +20272,8 @@
         "name": "五指山市*",
         "level": "county",
         "center": {
-          "longitude": 109.684604,
-          "latitude": 18.822608
+          "longitude": 109.516784,
+          "latitude": 18.774827
         }
       },
       {
@@ -20285,8 +20281,8 @@
         "name": "琼海市*",
         "level": "county",
         "center": {
-          "longitude": 110.47166,
-          "latitude": 19.324626
+          "longitude": 110.474524,
+          "latitude": 19.259112
         }
       },
       {
@@ -20294,8 +20290,8 @@
         "name": "文昌市*",
         "level": "county",
         "center": {
-          "longitude": 110.707616,
-          "latitude": 19.498201
+          "longitude": 110.797473,
+          "latitude": 19.544234
         }
       },
       {
@@ -20303,8 +20299,8 @@
         "name": "万宁市*",
         "level": "county",
         "center": {
-          "longitude": 110.031092,
-          "latitude": 18.749525
+          "longitude": 110.392605,
+          "latitude": 18.793697
         }
       },
       {
@@ -20312,8 +20308,8 @@
         "name": "东方市*",
         "level": "county",
         "center": {
-          "longitude": 108.854531,
-          "latitude": 19.037791
+          "longitude": 108.651829,
+          "latitude": 19.095187
         }
       },
       {
@@ -20321,8 +20317,8 @@
         "name": "定安县*",
         "level": "county",
         "center": {
-          "longitude": 110.268491,
-          "latitude": 19.592293
+          "longitude": 110.358001,
+          "latitude": 19.681215
         }
       },
       {
@@ -20330,8 +20326,8 @@
         "name": "屯昌县*",
         "level": "county",
         "center": {
-          "longitude": 110.180636,
-          "latitude": 19.319861
+          "longitude": 110.101667,
+          "latitude": 19.351662
         }
       },
       {
@@ -20339,8 +20335,8 @@
         "name": "澄迈县*",
         "level": "county",
         "center": {
-          "longitude": 110.186668,
-          "latitude": 19.641706
+          "longitude": 110.007497,
+          "latitude": 19.738885
         }
       },
       {
@@ -20348,8 +20344,8 @@
         "name": "临高县*",
         "level": "county",
         "center": {
-          "longitude": 109.614806,
-          "latitude": 19.855541
+          "longitude": 109.690508,
+          "latitude": 19.912025
         }
       },
       {
@@ -20357,8 +20353,8 @@
         "name": "白沙黎族自治县*",
         "level": "county",
         "center": {
-          "longitude": 109.047858,
-          "latitude": 19.368662
+          "longitude": 109.4429,
+          "latitude": 19.221641
         }
       },
       {
@@ -20366,8 +20362,8 @@
         "name": "昌江黎族自治县*",
         "level": "county",
         "center": {
-          "longitude": 108.847421,
-          "latitude": 19.296495
+          "longitude": 109.055783,
+          "latitude": 19.298139
         }
       },
       {
@@ -20375,8 +20371,8 @@
         "name": "乐东黎族自治县*",
         "level": "county",
         "center": {
-          "longitude": 108.755614,
-          "latitude": 18.536206
+          "longitude": 109.173384,
+          "latitude": 18.750063
         }
       },
       {
@@ -20384,8 +20380,8 @@
         "name": "陵水黎族自治县*",
         "level": "county",
         "center": {
-          "longitude": 109.83713,
-          "latitude": 18.632318
+          "longitude": 110.037553,
+          "latitude": 18.506045
         }
       },
       {
@@ -20393,8 +20389,8 @@
         "name": "保亭黎族苗族自治县*",
         "level": "county",
         "center": {
-          "longitude": 109.674549,
-          "latitude": 18.516922
+          "longitude": 109.700279,
+          "latitude": 18.640339
         }
       },
       {
@@ -20402,20 +20398,20 @@
         "name": "琼中黎族苗族自治县*",
         "level": "county",
         "center": {
-          "longitude": 110.071277,
-          "latitude": 18.773381
+          "longitude": 109.838423,
+          "latitude": 19.03327
         }
       }
-    ]
+    ],
+    "center": {
+      "longitude": 110.348781,
+      "latitude": 20.018639
+    }
   },
   {
     "code": "500000",
     "name": "重庆市",
     "level": "province",
-    "center": {
-      "longitude": 106.551787,
-      "latitude": 29.56268
-    },
     "children": [
       {
         "code": "500101",
@@ -20456,11 +20452,7 @@
       {
         "code": "500105",
         "name": "江北区",
-        "level": "county",
-        "center": {
-          "longitude": 106.5275,
-          "latitude": 29.575556
-        }
+        "level": "county"
       },
       {
         "code": "500106",
@@ -20519,11 +20511,7 @@
       {
         "code": "500112",
         "name": "渝北区",
-        "level": "county",
-        "center": {
-          "longitude": 106.617778,
-          "latitude": 29.708056
-        }
+        "level": "county"
       },
       {
         "code": "500113",
@@ -20759,25 +20747,21 @@
           "latitude": 29.293748
         }
       }
-    ]
+    ],
+    "center": {
+      "longitude": 106.551787,
+      "latitude": 29.56268
+    }
   },
   {
     "code": "510000",
     "name": "四川省",
     "level": "province",
-    "center": {
-      "longitude": 104.076452,
-      "latitude": 30.651696
-    },
     "children": [
       {
         "code": "510100",
         "name": "成都市",
         "level": "prefecture",
-        "center": {
-          "longitude": 104.066301,
-          "latitude": 30.572961
-        },
         "children": [
           {
             "code": "510104",
@@ -20959,16 +20943,16 @@
               "latitude": 30.410937
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 104.066301,
+          "latitude": 30.572961
+        }
       },
       {
         "code": "510300",
         "name": "自贡市",
         "level": "prefecture",
-        "center": {
-          "longitude": 104.779307,
-          "latitude": 29.33924
-        },
         "children": [
           {
             "code": "510302",
@@ -21024,16 +21008,16 @@
               "latitude": 29.181779
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 104.779307,
+          "latitude": 29.33924
+        }
       },
       {
         "code": "510400",
         "name": "攀枝花市",
         "level": "prefecture",
-        "center": {
-          "longitude": 101.729116,
-          "latitude": 26.558645
-        },
         "children": [
           {
             "code": "510402",
@@ -21080,16 +21064,16 @@
               "latitude": 26.682611
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 101.729116,
+          "latitude": 26.558645
+        }
       },
       {
         "code": "510500",
         "name": "泸州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 105.441866,
-          "latitude": 28.87098
-        },
         "children": [
           {
             "code": "510502",
@@ -21154,16 +21138,16 @@
               "latitude": 28.038763
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 105.441866,
+          "latitude": 28.87098
+        }
       },
       {
         "code": "510600",
         "name": "德阳市",
         "level": "prefecture",
-        "center": {
-          "longitude": 104.397795,
-          "latitude": 31.127449
-        },
         "children": [
           {
             "code": "510603",
@@ -21219,16 +21203,16 @@
               "latitude": 31.339251
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 104.397795,
+          "latitude": 31.127449
+        }
       },
       {
         "code": "510700",
         "name": "绵阳市",
         "level": "prefecture",
-        "center": {
-          "longitude": 104.679127,
-          "latitude": 31.467673
-        },
         "children": [
           {
             "code": "510703",
@@ -21311,16 +21295,16 @@
               "latitude": 31.778572
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 104.679127,
+          "latitude": 31.467673
+        }
       },
       {
         "code": "510800",
         "name": "广元市",
         "level": "prefecture",
-        "center": {
-          "longitude": 105.844004,
-          "latitude": 32.435774
-        },
         "children": [
           {
             "code": "510802",
@@ -21385,16 +21369,16 @@
               "latitude": 31.731709
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 105.844004,
+          "latitude": 32.435774
+        }
       },
       {
         "code": "510900",
         "name": "遂宁市",
         "level": "prefecture",
-        "center": {
-          "longitude": 105.592602,
-          "latitude": 30.53268
-        },
         "children": [
           {
             "code": "510903",
@@ -21441,16 +21425,16 @@
               "latitude": 30.871079
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 105.592602,
+          "latitude": 30.53268
+        }
       },
       {
         "code": "511000",
         "name": "内江市",
         "level": "prefecture",
-        "center": {
-          "longitude": 105.057992,
-          "latitude": 29.58021
-        },
         "children": [
           {
             "code": "511002",
@@ -21497,16 +21481,16 @@
               "latitude": 29.339408
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 105.057992,
+          "latitude": 29.58021
+        }
       },
       {
         "code": "511100",
         "name": "乐山市",
         "level": "prefecture",
-        "center": {
-          "longitude": 103.766085,
-          "latitude": 29.552275
-        },
         "children": [
           {
             "code": "511102",
@@ -21607,16 +21591,16 @@
               "latitude": 29.601189
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 103.766085,
+          "latitude": 29.552275
+        }
       },
       {
         "code": "511300",
         "name": "南充市",
         "level": "prefecture",
-        "center": {
-          "longitude": 106.110565,
-          "latitude": 30.837235
-        },
         "children": [
           {
             "code": "511302",
@@ -21699,16 +21683,16 @@
               "latitude": 31.558356
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 106.110565,
+          "latitude": 30.837235
+        }
       },
       {
         "code": "511400",
         "name": "眉山市",
         "level": "prefecture",
-        "center": {
-          "longitude": 103.848417,
-          "latitude": 30.077113
-        },
         "children": [
           {
             "code": "511402",
@@ -21764,16 +21748,16 @@
               "latitude": 29.831302
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 103.848417,
+          "latitude": 30.077113
+        }
       },
       {
         "code": "511500",
         "name": "宜宾市",
         "level": "prefecture",
-        "center": {
-          "longitude": 104.642826,
-          "latitude": 28.752354
-        },
         "children": [
           {
             "code": "511502",
@@ -21865,16 +21849,16 @@
               "latitude": 28.82867
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 104.642826,
+          "latitude": 28.752354
+        }
       },
       {
         "code": "511600",
         "name": "广安市",
         "level": "prefecture",
-        "center": {
-          "longitude": 106.632647,
-          "latitude": 30.456354
-        },
         "children": [
           {
             "code": "511602",
@@ -21930,16 +21914,16 @@
               "latitude": 30.390439
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 106.632647,
+          "latitude": 30.456354
+        }
       },
       {
         "code": "511700",
         "name": "达州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 107.46778,
-          "latitude": 31.209278
-        },
         "children": [
           {
             "code": "511702",
@@ -22004,16 +21988,16 @@
               "latitude": 32.081698
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 107.46778,
+          "latitude": 31.209278
+        }
       },
       {
         "code": "511800",
         "name": "雅安市",
         "level": "prefecture",
-        "center": {
-          "longitude": 103.041538,
-          "latitude": 30.009998
-        },
         "children": [
           {
             "code": "511802",
@@ -22087,16 +22071,16 @@
               "latitude": 30.252469
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 103.041538,
+          "latitude": 30.009998
+        }
       },
       {
         "code": "511900",
         "name": "巴中市",
         "level": "prefecture",
-        "center": {
-          "longitude": 106.747548,
-          "latitude": 31.867853
-        },
         "children": [
           {
             "code": "511902",
@@ -22143,16 +22127,16 @@
               "latitude": 31.560436
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 106.747548,
+          "latitude": 31.867853
+        }
       },
       {
         "code": "512000",
         "name": "资阳市",
         "level": "prefecture",
-        "center": {
-          "longitude": 104.627265,
-          "latitude": 30.129236
-        },
         "children": [
           {
             "code": "512002",
@@ -22181,16 +22165,16 @@
               "latitude": 30.275418
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 104.627265,
+          "latitude": 30.129236
+        }
       },
       {
         "code": "513200",
         "name": "阿坝藏族羌族自治州",
         "level": "prefecture",
-        "center": {
-          "longitude": 102.224504,
-          "latitude": 31.899427
-        },
         "children": [
           {
             "code": "513201",
@@ -22309,16 +22293,16 @@
               "latitude": 32.790841
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 102.224504,
+          "latitude": 31.899427
+        }
       },
       {
         "code": "513300",
         "name": "甘孜藏族自治州",
         "level": "prefecture",
-        "center": {
-          "longitude": 101.96231,
-          "latitude": 30.04952
-        },
         "children": [
           {
             "code": "513301",
@@ -22482,16 +22466,16 @@
               "latitude": 28.713085
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 101.96231,
+          "latitude": 30.04952
+        }
       },
       {
         "code": "513400",
         "name": "凉山彝族自治州",
         "level": "prefecture",
-        "center": {
-          "longitude": 102.267713,
-          "latitude": 27.881396
-        },
         "children": [
           {
             "code": "513401",
@@ -22646,27 +22630,27 @@
               "latitude": 28.263202
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 102.267713,
+          "latitude": 27.881396
+        }
       }
-    ]
+    ],
+    "center": {
+      "longitude": 104.076452,
+      "latitude": 30.651696
+    }
   },
   {
     "code": "520000",
     "name": "贵州省",
     "level": "province",
-    "center": {
-      "longitude": 106.705251,
-      "latitude": 26.600328
-    },
     "children": [
       {
         "code": "520100",
         "name": "贵阳市",
         "level": "prefecture",
-        "center": {
-          "longitude": 106.628201,
-          "latitude": 26.646694
-        },
         "children": [
           {
             "code": "520102",
@@ -22758,16 +22742,16 @@
               "latitude": 26.572978
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 106.628201,
+          "latitude": 26.646694
+        }
       },
       {
         "code": "520200",
         "name": "六盘水市",
         "level": "prefecture",
-        "center": {
-          "longitude": 104.830357,
-          "latitude": 26.592538
-        },
         "children": [
           {
             "code": "520201",
@@ -22805,16 +22789,16 @@
               "latitude": 25.709878
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 104.830357,
+          "latitude": 26.592538
+        }
       },
       {
         "code": "520300",
         "name": "遵义市",
         "level": "prefecture",
-        "center": {
-          "longitude": 107.031922,
-          "latitude": 27.721931
-        },
         "children": [
           {
             "code": "520302",
@@ -22942,16 +22926,16 @@
               "latitude": 27.791883
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 107.031922,
+          "latitude": 27.721931
+        }
       },
       {
         "code": "520400",
         "name": "安顺市",
         "level": "prefecture",
-        "center": {
-          "longitude": 105.9476,
-          "latitude": 26.253103
-        },
         "children": [
           {
             "code": "520402",
@@ -23007,16 +22991,16 @@
               "latitude": 25.751047
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 105.9476,
+          "latitude": 26.253103
+        }
       },
       {
         "code": "520500",
         "name": "毕节市",
         "level": "prefecture",
-        "center": {
-          "longitude": 105.291544,
-          "latitude": 27.283615
-        },
         "children": [
           {
             "code": "520502",
@@ -23090,16 +23074,16 @@
               "latitude": 27.008681
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 105.291544,
+          "latitude": 27.283615
+        }
       },
       {
         "code": "520600",
         "name": "铜仁市",
         "level": "prefecture",
-        "center": {
-          "longitude": 109.189528,
-          "latitude": 27.731555
-        },
         "children": [
           {
             "code": "520602",
@@ -23191,16 +23175,16 @@
               "latitude": 28.15427
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 109.189528,
+          "latitude": 27.731555
+        }
       },
       {
         "code": "522300",
         "name": "黔西南布依族苗族自治州",
         "level": "prefecture",
-        "center": {
-          "longitude": 104.906419,
-          "latitude": 25.087733
-        },
         "children": [
           {
             "code": "522301",
@@ -23274,16 +23258,16 @@
               "latitude": 25.099014
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 104.906419,
+          "latitude": 25.087733
+        }
       },
       {
         "code": "522600",
         "name": "黔东南苗族侗族自治州",
         "level": "prefecture",
-        "center": {
-          "longitude": 107.982838,
-          "latitude": 26.583759
-        },
         "children": [
           {
             "code": "522601",
@@ -23429,16 +23413,16 @@
               "latitude": 26.19857
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 107.982838,
+          "latitude": 26.583759
+        }
       },
       {
         "code": "522700",
         "name": "黔南布依族苗族自治州",
         "level": "prefecture",
-        "center": {
-          "longitude": 107.522303,
-          "latitude": 26.253136
-        },
         "children": [
           {
             "code": "522701",
@@ -23548,27 +23532,27 @@
               "latitude": 25.983572
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 107.522303,
+          "latitude": 26.253136
+        }
       }
-    ]
+    ],
+    "center": {
+      "longitude": 106.705251,
+      "latitude": 26.600328
+    }
   },
   {
     "code": "530000",
     "name": "云南省",
     "level": "province",
-    "center": {
-      "longitude": 102.709372,
-      "latitude": 25.046432
-    },
     "children": [
       {
         "code": "530100",
         "name": "昆明市",
         "level": "prefecture",
-        "center": {
-          "longitude": 102.833669,
-          "latitude": 24.88149
-        },
         "children": [
           {
             "code": "530102",
@@ -23696,16 +23680,16 @@
               "latitude": 24.919831
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 102.833669,
+          "latitude": 24.88149
+        }
       },
       {
         "code": "530300",
         "name": "曲靖市",
         "level": "prefecture",
-        "center": {
-          "longitude": 103.796288,
-          "latitude": 25.490866
-        },
         "children": [
           {
             "code": "530302",
@@ -23788,16 +23772,16 @@
               "latitude": 26.218956
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 103.796288,
+          "latitude": 25.490866
+        }
       },
       {
         "code": "530400",
         "name": "玉溪市",
         "level": "prefecture",
-        "center": {
-          "longitude": 102.526673,
-          "latitude": 24.346786
-        },
         "children": [
           {
             "code": "530402",
@@ -23880,16 +23864,16 @@
               "latitude": 24.675536
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 102.526673,
+          "latitude": 24.346786
+        }
       },
       {
         "code": "530500",
         "name": "保山市",
         "level": "prefecture",
-        "center": {
-          "longitude": 99.161489,
-          "latitude": 25.112018
-        },
         "children": [
           {
             "code": "530502",
@@ -23936,16 +23920,16 @@
               "latitude": 25.020283
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 99.161489,
+          "latitude": 25.112018
+        }
       },
       {
         "code": "530600",
         "name": "昭通市",
         "level": "prefecture",
-        "center": {
-          "longitude": 103.717078,
-          "latitude": 27.338185
-        },
         "children": [
           {
             "code": "530602",
@@ -24046,16 +24030,16 @@
               "latitude": 28.629951
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 103.717078,
+          "latitude": 27.338185
+        }
       },
       {
         "code": "530700",
         "name": "丽江市",
         "level": "prefecture",
-        "center": {
-          "longitude": 100.225936,
-          "latitude": 26.855165
-        },
         "children": [
           {
             "code": "530702",
@@ -24102,16 +24086,16 @@
               "latitude": 27.282207
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 100.225936,
+          "latitude": 26.855165
+        }
       },
       {
         "code": "530800",
         "name": "普洱市",
         "level": "prefecture",
-        "center": {
-          "longitude": 100.966011,
-          "latitude": 22.825229
-        },
         "children": [
           {
             "code": "530802",
@@ -24203,16 +24187,16 @@
               "latitude": 22.644237
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 100.966011,
+          "latitude": 22.825229
+        }
       },
       {
         "code": "530900",
         "name": "临沧市",
         "level": "prefecture",
-        "center": {
-          "longitude": 100.088837,
-          "latitude": 23.884175
-        },
         "children": [
           {
             "code": "530902",
@@ -24286,16 +24270,16 @@
               "latitude": 23.146758
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 100.088837,
+          "latitude": 23.884175
+        }
       },
       {
         "code": "532300",
         "name": "楚雄彝族自治州",
         "level": "prefecture",
-        "center": {
-          "longitude": 101.528304,
-          "latitude": 25.045678
-        },
         "children": [
           {
             "code": "532301",
@@ -24387,16 +24371,16 @@
               "latitude": 25.530731
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 101.528304,
+          "latitude": 25.045678
+        }
       },
       {
         "code": "532500",
         "name": "红河哈尼族彝族自治州",
         "level": "prefecture",
-        "center": {
-          "longitude": 103.374873,
-          "latitude": 23.363129
-        },
         "children": [
           {
             "code": "532501",
@@ -24515,16 +24499,16 @@
               "latitude": 22.529438
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 103.374873,
+          "latitude": 23.363129
+        }
       },
       {
         "code": "532600",
         "name": "文山壮族苗族自治州",
         "level": "prefecture",
-        "center": {
-          "longitude": 104.21567,
-          "latitude": 23.400983
-        },
         "children": [
           {
             "code": "532601",
@@ -24598,16 +24582,16 @@
               "latitude": 23.625072
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 104.21567,
+          "latitude": 23.400983
+        }
       },
       {
         "code": "532800",
         "name": "西双版纳傣族自治州",
         "level": "prefecture",
-        "center": {
-          "longitude": 100.797002,
-          "latitude": 22.009037
-        },
         "children": [
           {
             "code": "532801",
@@ -24636,16 +24620,16 @@
               "latitude": 21.459233
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 100.797002,
+          "latitude": 22.009037
+        }
       },
       {
         "code": "532900",
         "name": "大理白族自治州",
         "level": "prefecture",
-        "center": {
-          "longitude": 100.267608,
-          "latitude": 25.606548
-        },
         "children": [
           {
             "code": "532901",
@@ -24755,16 +24739,16 @@
               "latitude": 26.560122
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 100.267608,
+          "latitude": 25.606548
+        }
       },
       {
         "code": "533100",
         "name": "德宏傣族景颇族自治州",
         "level": "prefecture",
-        "center": {
-          "longitude": 98.585621,
-          "latitude": 24.433146
-        },
         "children": [
           {
             "code": "533102",
@@ -24811,16 +24795,16 @@
               "latitude": 24.182347
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 98.585621,
+          "latitude": 24.433146
+        }
       },
       {
         "code": "533300",
         "name": "怒江傈僳族自治州",
         "level": "prefecture",
-        "center": {
-          "longitude": 98.8566,
-          "latitude": 25.817555
-        },
         "children": [
           {
             "code": "533301",
@@ -24858,16 +24842,16 @@
               "latitude": 26.453622
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 98.8566,
+          "latitude": 25.817555
+        }
       },
       {
         "code": "533400",
         "name": "迪庆藏族自治州",
         "level": "prefecture",
-        "center": {
-          "longitude": 99.70211,
-          "latitude": 27.819149
-        },
         "children": [
           {
             "code": "533401",
@@ -24896,27 +24880,27 @@
               "latitude": 27.163808
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 99.70211,
+          "latitude": 27.819149
+        }
       }
-    ]
+    ],
+    "center": {
+      "longitude": 102.709372,
+      "latitude": 25.046432
+    }
   },
   {
     "code": "540000",
     "name": "西藏自治区",
     "level": "province",
-    "center": {
-      "longitude": 91.117449,
-      "latitude": 29.648694
-    },
     "children": [
       {
         "code": "540100",
         "name": "拉萨市",
         "level": "prefecture",
-        "center": {
-          "longitude": 91.171924,
-          "latitude": 29.653491
-        },
         "children": [
           {
             "code": "540102",
@@ -24990,16 +24974,16 @@
               "latitude": 29.850344
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 91.171924,
+          "latitude": 29.653491
+        }
       },
       {
         "code": "540200",
         "name": "日喀则市",
         "level": "prefecture",
-        "center": {
-          "longitude": 88.880423,
-          "latitude": 29.266838
-        },
         "children": [
           {
             "code": "540202",
@@ -25163,16 +25147,16 @@
               "latitude": 28.271189
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 88.880423,
+          "latitude": 29.266838
+        }
       },
       {
         "code": "540300",
         "name": "昌都市",
         "level": "prefecture",
-        "center": {
-          "longitude": 97.170425,
-          "latitude": 31.142879
-        },
         "children": [
           {
             "code": "540302",
@@ -25273,16 +25257,16 @@
               "latitude": 30.933652
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 97.170425,
+          "latitude": 31.142879
+        }
       },
       {
         "code": "540400",
         "name": "林芝市",
         "level": "prefecture",
-        "center": {
-          "longitude": 94.361436,
-          "latitude": 29.64875
-        },
         "children": [
           {
             "code": "540402",
@@ -25347,16 +25331,16 @@
               "latitude": 29.215971
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 94.361436,
+          "latitude": 29.64875
+        }
       },
       {
         "code": "540500",
         "name": "山南市",
         "level": "prefecture",
-        "center": {
-          "longitude": 91.771426,
-          "latitude": 29.237722
-        },
         "children": [
           {
             "code": "540502",
@@ -25466,16 +25450,16 @@
               "latitude": 27.991121
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 91.771426,
+          "latitude": 29.237722
+        }
       },
       {
         "code": "540600",
         "name": "那曲市",
         "level": "prefecture",
-        "center": {
-          "longitude": 92.05151,
-          "latitude": 31.477905
-        },
         "children": [
           {
             "code": "540602",
@@ -25576,16 +25560,16 @@
               "latitude": 33.188355
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 92.05151,
+          "latitude": 31.477905
+        }
       },
       {
         "code": "542500",
         "name": "阿里地区",
         "level": "prefecture",
-        "center": {
-          "longitude": 80.105786,
-          "latitude": 32.500987
-        },
         "children": [
           {
             "code": "542521",
@@ -25650,27 +25634,27 @@
               "latitude": 31.015862
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 80.105786,
+          "latitude": 32.500987
+        }
       }
-    ]
+    ],
+    "center": {
+      "longitude": 91.117449,
+      "latitude": 29.648694
+    }
   },
   {
     "code": "610000",
     "name": "陕西省",
     "level": "province",
-    "center": {
-      "longitude": 108.953939,
-      "latitude": 34.266611
-    },
     "children": [
       {
         "code": "610100",
         "name": "西安市",
         "level": "prefecture",
-        "center": {
-          "longitude": 108.939645,
-          "latitude": 34.343207
-        },
         "children": [
           {
             "code": "610102",
@@ -25789,16 +25773,16 @@
               "latitude": 34.163592
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 108.939645,
+          "latitude": 34.343207
+        }
       },
       {
         "code": "610200",
         "name": "铜川市",
         "level": "prefecture",
-        "center": {
-          "longitude": 108.945116,
-          "latitude": 34.897133
-        },
         "children": [
           {
             "code": "610202",
@@ -25836,16 +25820,16 @@
               "latitude": 35.398624
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 108.945116,
+          "latitude": 34.897133
+        }
       },
       {
         "code": "610300",
         "name": "宝鸡市",
         "level": "prefecture",
-        "center": {
-          "longitude": 107.237682,
-          "latitude": 34.362862
-        },
         "children": [
           {
             "code": "610302",
@@ -25955,16 +25939,16 @@
               "latitude": 34.058299
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 107.237682,
+          "latitude": 34.362862
+        }
       },
       {
         "code": "610400",
         "name": "咸阳市",
         "level": "prefecture",
-        "center": {
-          "longitude": 108.708837,
-          "latitude": 34.329896
-        },
         "children": [
           {
             "code": "610402",
@@ -26092,16 +26076,16 @@
               "latitude": 35.035702
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 108.708837,
+          "latitude": 34.329896
+        }
       },
       {
         "code": "610500",
         "name": "渭南市",
         "level": "prefecture",
-        "center": {
-          "longitude": 109.470962,
-          "latitude": 34.520632
-        },
         "children": [
           {
             "code": "610502",
@@ -26202,16 +26186,16 @@
               "latitude": 34.566552
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 109.470962,
+          "latitude": 34.520632
+        }
       },
       {
         "code": "610600",
         "name": "延安市",
         "level": "prefecture",
-        "center": {
-          "longitude": 109.49468,
-          "latitude": 36.650109
-        },
         "children": [
           {
             "code": "610602",
@@ -26330,16 +26314,16 @@
               "latitude": 37.142462
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 109.49468,
+          "latitude": 36.650109
+        }
       },
       {
         "code": "610700",
         "name": "汉中市",
         "level": "prefecture",
-        "center": {
-          "longitude": 107.02319,
-          "latitude": 33.066373
-        },
         "children": [
           {
             "code": "610702",
@@ -26440,16 +26424,16 @@
               "latitude": 33.524261
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 107.02319,
+          "latitude": 33.066373
+        }
       },
       {
         "code": "610800",
         "name": "榆林市",
         "level": "prefecture",
-        "center": {
-          "longitude": 109.734104,
-          "latitude": 38.28576
-        },
         "children": [
           {
             "code": "610802",
@@ -26559,16 +26543,16 @@
               "latitude": 38.899742
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 109.734104,
+          "latitude": 38.28576
+        }
       },
       {
         "code": "610900",
         "name": "安康市",
         "level": "prefecture",
-        "center": {
-          "longitude": 109.029017,
-          "latitude": 32.685435
-        },
         "children": [
           {
             "code": "610902",
@@ -26660,16 +26644,16 @@
               "latitude": 32.832213
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 109.029017,
+          "latitude": 32.685435
+        }
       },
       {
         "code": "611000",
         "name": "商洛市",
         "level": "prefecture",
-        "center": {
-          "longitude": 109.918646,
-          "latitude": 33.873358
-        },
         "children": [
           {
             "code": "611002",
@@ -26734,27 +26718,27 @@
               "latitude": 33.686048
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 109.918646,
+          "latitude": 33.873358
+        }
       }
-    ]
+    ],
+    "center": {
+      "longitude": 108.953939,
+      "latitude": 34.266611
+    }
   },
   {
     "code": "620000",
     "name": "甘肃省",
     "level": "province",
-    "center": {
-      "longitude": 103.826777,
-      "latitude": 36.060634
-    },
     "children": [
       {
         "code": "620100",
         "name": "兰州市",
         "level": "prefecture",
-        "center": {
-          "longitude": 103.834228,
-          "latitude": 36.060798
-        },
         "children": [
           {
             "code": "620102",
@@ -26828,25 +26812,25 @@
               "latitude": 35.843354
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 103.834228,
+          "latitude": 36.060798
+        }
       },
       {
         "code": "620200",
         "name": "嘉峪关市",
         "level": "prefecture",
         "center": {
-          "longitude": 98.292606,
-          "latitude": 39.75577
+          "longitude": 98.2882,
+          "latitude": 39.77325
         }
       },
       {
         "code": "620300",
         "name": "金昌市",
         "level": "prefecture",
-        "center": {
-          "longitude": 102.187972,
-          "latitude": 38.521468
-        },
         "children": [
           {
             "code": "620302",
@@ -26866,16 +26850,16 @@
               "latitude": 38.243534
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 102.187972,
+          "latitude": 38.521468
+        }
       },
       {
         "code": "620400",
         "name": "白银市",
         "level": "prefecture",
-        "center": {
-          "longitude": 104.138872,
-          "latitude": 36.545123
-        },
         "children": [
           {
             "code": "620402",
@@ -26922,16 +26906,16 @@
               "latitude": 37.18351
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 104.138872,
+          "latitude": 36.545123
+        }
       },
       {
         "code": "620500",
         "name": "天水市",
         "level": "prefecture",
-        "center": {
-          "longitude": 105.724828,
-          "latitude": 34.581514
-        },
         "children": [
           {
             "code": "620502",
@@ -26996,16 +26980,16 @@
               "latitude": 34.988676
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 105.724828,
+          "latitude": 34.581514
+        }
       },
       {
         "code": "620600",
         "name": "武威市",
         "level": "prefecture",
-        "center": {
-          "longitude": 102.637821,
-          "latitude": 37.92898
-        },
         "children": [
           {
             "code": "620602",
@@ -27043,16 +27027,16 @@
               "latitude": 36.971978
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 102.637821,
+          "latitude": 37.92898
+        }
       },
       {
         "code": "620700",
         "name": "张掖市",
         "level": "prefecture",
-        "center": {
-          "longitude": 100.449858,
-          "latitude": 38.924766
-        },
         "children": [
           {
             "code": "620702",
@@ -27108,16 +27092,16 @@
               "latitude": 38.7846
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 100.449858,
+          "latitude": 38.924766
+        }
       },
       {
         "code": "620800",
         "name": "平凉市",
         "level": "prefecture",
-        "center": {
-          "longitude": 106.664913,
-          "latitude": 35.542417
-        },
         "children": [
           {
             "code": "620802",
@@ -27182,16 +27166,16 @@
               "latitude": 35.207695
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 106.664913,
+          "latitude": 35.542417
+        }
       },
       {
         "code": "620900",
         "name": "酒泉市",
         "level": "prefecture",
-        "center": {
-          "longitude": 98.49432,
-          "latitude": 39.733416
-        },
         "children": [
           {
             "code": "620902",
@@ -27256,16 +27240,16 @@
               "latitude": 40.142141
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 98.49432,
+          "latitude": 39.733416
+        }
       },
       {
         "code": "621000",
         "name": "庆阳市",
         "level": "prefecture",
-        "center": {
-          "longitude": 107.643433,
-          "latitude": 35.709459
-        },
         "children": [
           {
             "code": "621002",
@@ -27339,16 +27323,16 @@
               "latitude": 35.677705
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 107.643433,
+          "latitude": 35.709459
+        }
       },
       {
         "code": "621100",
         "name": "定西市",
         "level": "prefecture",
-        "center": {
-          "longitude": 104.592342,
-          "latitude": 35.607947
-        },
         "children": [
           {
             "code": "621102",
@@ -27413,16 +27397,16 @@
               "latitude": 34.43833
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 104.592342,
+          "latitude": 35.607947
+        }
       },
       {
         "code": "621200",
         "name": "陇南市",
         "level": "prefecture",
-        "center": {
-          "longitude": 104.960296,
-          "latitude": 33.370174
-        },
         "children": [
           {
             "code": "621202",
@@ -27505,16 +27489,16 @@
               "latitude": 33.908952
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 104.960296,
+          "latitude": 33.370174
+        }
       },
       {
         "code": "622900",
         "name": "临夏回族自治州",
         "level": "prefecture",
-        "center": {
-          "longitude": 103.210386,
-          "latitude": 35.601792
-        },
         "children": [
           {
             "code": "622901",
@@ -27588,16 +27572,16 @@
               "latitude": 35.717697
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 103.210386,
+          "latitude": 35.601792
+        }
       },
       {
         "code": "623000",
         "name": "甘南藏族自治州",
         "level": "prefecture",
-        "center": {
-          "longitude": 102.911736,
-          "latitude": 34.983266
-        },
         "children": [
           {
             "code": "623001",
@@ -27671,27 +27655,27 @@
               "latitude": 35.203857
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 102.911736,
+          "latitude": 34.983266
+        }
       }
-    ]
+    ],
+    "center": {
+      "longitude": 103.826777,
+      "latitude": 36.060634
+    }
   },
   {
     "code": "630000",
     "name": "青海省",
     "level": "province",
-    "center": {
-      "longitude": 101.780482,
-      "latitude": 36.622538
-    },
     "children": [
       {
         "code": "630100",
         "name": "西宁市",
         "level": "prefecture",
-        "center": {
-          "longitude": 101.758249,
-          "latitude": 36.676027
-        },
         "children": [
           {
             "code": "630102",
@@ -27756,16 +27740,16 @@
               "latitude": 36.682426
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 101.758249,
+          "latitude": 36.676027
+        }
       },
       {
         "code": "630200",
         "name": "海东市",
         "level": "prefecture",
-        "center": {
-          "longitude": 102.41064,
-          "latitude": 36.473448
-        },
         "children": [
           {
             "code": "630202",
@@ -27821,16 +27805,16 @@
               "latitude": 35.851079
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 102.41064,
+          "latitude": 36.473448
+        }
       },
       {
         "code": "632200",
         "name": "海北藏族自治州",
         "level": "prefecture",
-        "center": {
-          "longitude": 100.900944,
-          "latitude": 36.954612
-        },
         "children": [
           {
             "code": "632221",
@@ -27868,16 +27852,16 @@
               "latitude": 37.325096
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 100.900944,
+          "latitude": 36.954612
+        }
       },
       {
         "code": "632300",
         "name": "黄南藏族自治州",
         "level": "prefecture",
-        "center": {
-          "longitude": 102.015397,
-          "latitude": 35.519317
-        },
         "children": [
           {
             "code": "632301",
@@ -27915,16 +27899,16 @@
               "latitude": 34.734777
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 102.015397,
+          "latitude": 35.519317
+        }
       },
       {
         "code": "632500",
         "name": "海南藏族自治州",
         "level": "prefecture",
-        "center": {
-          "longitude": 100.622647,
-          "latitude": 36.296399
-        },
         "children": [
           {
             "code": "632521",
@@ -27971,16 +27955,16 @@
               "latitude": 35.587239
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 100.622647,
+          "latitude": 36.296399
+        }
       },
       {
         "code": "632600",
         "name": "果洛藏族自治州",
         "level": "prefecture",
-        "center": {
-          "longitude": 100.245161,
-          "latitude": 34.472179
-        },
         "children": [
           {
             "code": "632621",
@@ -28036,16 +28020,16 @@
               "latitude": 34.915645
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 100.245161,
+          "latitude": 34.472179
+        }
       },
       {
         "code": "632700",
         "name": "玉树藏族自治州",
         "level": "prefecture",
-        "center": {
-          "longitude": 97.006292,
-          "latitude": 33.006308
-        },
         "children": [
           {
             "code": "632701",
@@ -28101,16 +28085,16 @@
               "latitude": 34.137353
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 97.006292,
+          "latitude": 33.006308
+        }
       },
       {
         "code": "632800",
         "name": "海西蒙古族藏族自治州",
         "level": "prefecture",
-        "center": {
-          "longitude": 97.33197,
-          "latitude": 37.348114
-        },
         "children": [
           {
             "code": "632801",
@@ -28166,27 +28150,27 @@
               "latitude": 37.301206
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 97.33197,
+          "latitude": 37.348114
+        }
       }
-    ]
+    ],
+    "center": {
+      "longitude": 101.780482,
+      "latitude": 36.622538
+    }
   },
   {
     "code": "640000",
     "name": "宁夏回族自治区",
     "level": "province",
-    "center": {
-      "longitude": 106.258889,
-      "latitude": 38.472273
-    },
     "children": [
       {
         "code": "640100",
         "name": "银川市",
         "level": "prefecture",
-        "center": {
-          "longitude": 106.230977,
-          "latitude": 38.487783
-        },
         "children": [
           {
             "code": "640104",
@@ -28242,16 +28226,16 @@
               "latitude": 38.102456
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 106.230977,
+          "latitude": 38.487783
+        }
       },
       {
         "code": "640200",
         "name": "石嘴山市",
         "level": "prefecture",
-        "center": {
-          "longitude": 106.382792,
-          "latitude": 38.984632
-        },
         "children": [
           {
             "code": "640202",
@@ -28280,16 +28264,16 @@
               "latitude": 38.913923
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 106.382792,
+          "latitude": 38.984632
+        }
       },
       {
         "code": "640300",
         "name": "吴忠市",
         "level": "prefecture",
-        "center": {
-          "longitude": 106.198613,
-          "latitude": 37.997755
-        },
         "children": [
           {
             "code": "640302",
@@ -28336,16 +28320,16 @@
               "latitude": 38.021579
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 106.198613,
+          "latitude": 37.997755
+        }
       },
       {
         "code": "640400",
         "name": "固原市",
         "level": "prefecture",
-        "center": {
-          "longitude": 106.24267,
-          "latitude": 36.01628
-        },
         "children": [
           {
             "code": "640402",
@@ -28392,16 +28376,16 @@
               "latitude": 35.860067
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 106.24267,
+          "latitude": 36.01628
+        }
       },
       {
         "code": "640500",
         "name": "中卫市",
         "level": "prefecture",
-        "center": {
-          "longitude": 105.19677,
-          "latitude": 37.500185
-        },
         "children": [
           {
             "code": "640502",
@@ -28430,27 +28414,27 @@
               "latitude": 36.565189
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 105.19677,
+          "latitude": 37.500185
+        }
       }
-    ]
+    ],
+    "center": {
+      "longitude": 106.258889,
+      "latitude": 38.472273
+    }
   },
   {
     "code": "650000",
     "name": "新疆维吾尔自治区",
     "level": "province",
-    "center": {
-      "longitude": 87.628579,
-      "latitude": 43.793301
-    },
     "children": [
       {
         "code": "650100",
         "name": "乌鲁木齐市",
         "level": "prefecture",
-        "center": {
-          "longitude": 87.616824,
-          "latitude": 43.825377
-        },
         "children": [
           {
             "code": "650102",
@@ -28524,16 +28508,16 @@
               "latitude": 43.509016
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 87.616824,
+          "latitude": 43.825377
+        }
       },
       {
         "code": "650200",
         "name": "克拉玛依市",
         "level": "prefecture",
-        "center": {
-          "longitude": 84.889239,
-          "latitude": 45.577712
-        },
         "children": [
           {
             "code": "650202",
@@ -28571,16 +28555,16 @@
               "latitude": 46.093451
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 84.889239,
+          "latitude": 45.577712
+        }
       },
       {
         "code": "650400",
         "name": "吐鲁番市",
         "level": "prefecture",
-        "center": {
-          "longitude": 89.250261,
-          "latitude": 42.972736
-        },
         "children": [
           {
             "code": "650402",
@@ -28609,16 +28593,16 @@
               "latitude": 42.802585
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 89.250261,
+          "latitude": 42.972736
+        }
       },
       {
         "code": "650500",
         "name": "哈密市",
         "level": "prefecture",
-        "center": {
-          "longitude": 93.515053,
-          "latitude": 42.819346
-        },
         "children": [
           {
             "code": "650502",
@@ -28647,16 +28631,16 @@
               "latitude": 43.254978
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 93.515053,
+          "latitude": 42.819346
+        }
       },
       {
         "code": "652300",
         "name": "昌吉回族自治州",
         "level": "prefecture",
-        "center": {
-          "longitude": 87.308995,
-          "latitude": 44.011044
-        },
         "children": [
           {
             "code": "652301",
@@ -28721,16 +28705,16 @@
               "latitude": 43.834631
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 87.308995,
+          "latitude": 44.011044
+        }
       },
       {
         "code": "652700",
         "name": "博尔塔拉蒙古自治州",
         "level": "prefecture",
-        "center": {
-          "longitude": 82.066363,
-          "latitude": 44.906039
-        },
         "children": [
           {
             "code": "652701",
@@ -28768,16 +28752,16 @@
               "latitude": 44.968857
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 82.066363,
+          "latitude": 44.906039
+        }
       },
       {
         "code": "652800",
         "name": "巴音郭楞蒙古自治州",
         "level": "prefecture",
-        "center": {
-          "longitude": 86.145298,
-          "latitude": 41.764115
-        },
         "children": [
           {
             "code": "652801",
@@ -28860,16 +28844,16 @@
               "latitude": 41.980745
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 86.145298,
+          "latitude": 41.764115
+        }
       },
       {
         "code": "652900",
         "name": "阿克苏地区",
         "level": "prefecture",
-        "center": {
-          "longitude": 80.265068,
-          "latitude": 41.170712
-        },
         "children": [
           {
             "code": "652901",
@@ -28952,16 +28936,16 @@
               "latitude": 40.501645
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 80.265068,
+          "latitude": 41.170712
+        }
       },
       {
         "code": "653000",
         "name": "克孜勒苏柯尔克孜自治州",
         "level": "prefecture",
-        "center": {
-          "longitude": 76.168157,
-          "latitude": 39.716236
-        },
         "children": [
           {
             "code": "653001",
@@ -28999,16 +28983,16 @@
               "latitude": 39.7205
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 76.168157,
+          "latitude": 39.716236
+        }
       },
       {
         "code": "653100",
         "name": "喀什地区",
         "level": "prefecture",
-        "center": {
-          "longitude": 75.990618,
-          "latitude": 39.470215
-        },
         "children": [
           {
             "code": "653101",
@@ -29118,16 +29102,16 @@
               "latitude": 37.772094
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 75.990618,
+          "latitude": 39.470215
+        }
       },
       {
         "code": "653200",
         "name": "和田地区",
         "level": "prefecture",
-        "center": {
-          "longitude": 79.921646,
-          "latitude": 37.114406
-        },
         "children": [
           {
             "code": "653201",
@@ -29201,16 +29185,16 @@
               "latitude": 37.064428
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 79.921646,
+          "latitude": 37.114406
+        }
       },
       {
         "code": "654000",
         "name": "伊犁哈萨克自治州",
         "level": "prefecture",
-        "center": {
-          "longitude": 81.323691,
-          "latitude": 43.917106
-        },
         "children": [
           {
             "code": "654002",
@@ -29311,16 +29295,16 @@
               "latitude": 43.798627
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 81.323691,
+          "latitude": 43.917106
+        }
       },
       {
         "code": "654200",
         "name": "塔城地区",
         "level": "prefecture",
-        "center": {
-          "longitude": 82.980316,
-          "latitude": 46.745364
-        },
         "children": [
           {
             "code": "654201",
@@ -29385,16 +29369,16 @@
               "latitude": 46.793235
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 82.980316,
+          "latitude": 46.745364
+        }
       },
       {
         "code": "654300",
         "name": "阿勒泰地区",
         "level": "prefecture",
-        "center": {
-          "longitude": 88.141253,
-          "latitude": 47.844924
-        },
         "children": [
           {
             "code": "654301",
@@ -29459,15 +29443,19 @@
               "latitude": 47.443101
             }
           }
-        ]
+        ],
+        "center": {
+          "longitude": 88.141253,
+          "latitude": 47.844924
+        }
       },
       {
         "code": "659001",
         "name": "石河子市*",
         "level": "county",
         "center": {
-          "longitude": 86.098308,
-          "latitude": 44.434587
+          "longitude": 86.080397,
+          "latitude": 44.305368
         }
       },
       {
@@ -29475,8 +29463,8 @@
         "name": "阿拉尔市*",
         "level": "county",
         "center": {
-          "longitude": 80.403007,
-          "latitude": 41.029144
+          "longitude": 81.280532,
+          "latitude": 40.547205
         }
       },
       {
@@ -29484,8 +29472,8 @@
         "name": "图木舒克市*",
         "level": "county",
         "center": {
-          "longitude": 77.37282,
-          "latitude": 37.444967
+          "longitude": 79.074965,
+          "latitude": 39.867776
         }
       },
       {
@@ -29493,8 +29481,8 @@
         "name": "五家渠市*",
         "level": "county",
         "center": {
-          "longitude": 87.50816,
-          "latitude": 44.188534
+          "longitude": 87.542852,
+          "latitude": 44.166489
         }
       },
       {
@@ -29502,8 +29490,8 @@
         "name": "北屯市*",
         "level": "county",
         "center": {
-          "longitude": 87.871109,
-          "latitude": 47.357426
+          "longitude": 87.834419,
+          "latitude": 47.326733
         }
       },
       {
@@ -29511,8 +29499,8 @@
         "name": "铁门关市*",
         "level": "county",
         "center": {
-          "longitude": 85.322762,
-          "latitude": 38.18622
+          "longitude": 85.670291,
+          "latitude": 41.862997
         }
       },
       {
@@ -29520,8 +29508,8 @@
         "name": "双河市*",
         "level": "county",
         "center": {
-          "longitude": 82.473143,
-          "latitude": 44.826624
+          "longitude": 82.35365587,
+          "latitude": 44.84052409
         }
       },
       {
@@ -29529,8 +29517,8 @@
         "name": "可克达拉市*",
         "level": "county",
         "center": {
-          "longitude": 81.021339,
-          "latitude": 43.908278
+          "longitude": 80.994153,
+          "latitude": 43.940381
         }
       },
       {
@@ -29538,8 +29526,8 @@
         "name": "昆玉市*",
         "level": "county",
         "center": {
-          "longitude": 79.377194,
-          "latitude": 37.416433
+          "longitude": 79.270193,
+          "latitude": 37.215372
         }
       },
       {
@@ -29547,8 +29535,8 @@
         "name": "胡杨河市*",
         "level": "county",
         "center": {
-          "longitude": 84.733352,
-          "latitude": 44.711517
+          "longitude": 84.827592,
+          "latitude": 44.692894
         }
       },
       {
@@ -29556,8 +29544,8 @@
         "name": "新星市*",
         "level": "county",
         "center": {
-          "longitude": 93.719461,
-          "latitude": 42.567696
+          "longitude": 93.74831,
+          "latitude": 42.797043
         }
       },
       {
@@ -29565,11 +29553,15 @@
         "name": "白杨市*",
         "level": "county",
         "center": {
-          "longitude": 84.347734,
-          "latitude": 46.825079
+          "longitude": 82.896936,
+          "latitude": 46.727959
         }
       }
-    ]
+    ],
+    "center": {
+      "longitude": 87.628579,
+      "latitude": 43.793301
+    }
   },
   {
     "code": "710000",
