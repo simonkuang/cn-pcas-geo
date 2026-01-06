@@ -1,0 +1,30 @@
+// FlatBuffers Schema for XZQH (Administrative Divisions)
+
+namespace XZQH;
+
+// Enum for administrative levels to save space
+enum Level : byte { 
+  Province = 0, 
+  Prefecture, 
+  County 
+}
+
+// Struct for coordinates (more efficient than table, enforced inline)
+struct Coordinate {
+  longitude: float;
+  latitude: float;
+}
+
+table Region {
+  code: string;
+  name: string;
+  level: Level;
+  center: Coordinate;
+  children: [Region];
+}
+
+table Data {
+  root: [Region];
+}
+
+root_type Data;

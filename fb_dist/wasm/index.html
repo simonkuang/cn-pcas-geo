@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XZQH WASM FlatBuffers Demo</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; padding: 20px; max-width: 600px; margin: 0 auto; }
+        h1 { font-size: 24px; margin-bottom: 20px; }
+        .control-group { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; }
+        select { width: 100%; padding: 8px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px; }
+        .result-box { background: #f5f5f7; padding: 15px; border-radius: 8px; margin-top: 20px; min-height: 100px; }
+        .result-item { margin-bottom: 8px; }
+        .loading { color: #888; font-style: italic; }
+    </style>
+</head>
+<body>
+
+    <h1>🇨🇳 行政区划查询 (WASM + FlatBuffers)</h1>
+    
+    <div id="status" class="loading">Loading WASM...</div>
+
+    <div class="control-group">
+        <label>省 / Province</label>
+        <select id="province" disabled><option value="">Select Province</option></select>
+    </div>
+
+    <div class="control-group">
+        <label>市 / City</label>
+        <select id="city" disabled><option value="">Select City</option></select>
+    </div>
+
+    <div class="control-group">
+        <label>区县 / County</label>
+        <select id="county" disabled><option value="">Select County</option></select>
+    </div>
+
+    <div class="result-box" id="result">
+        Select a region to see details.
+    </div>
+
+    <!-- Load the script, which defines createXZQH -->
+    <script src="xzqh_wasm.js"></script>
+
+    <script>
+        let xzqh = null; // The C++ XZQHWrapper instance
+        let wasmModule = null;
+
+        // Init WASM Module
+        createXZQH().then(async function(module) {
+            wasmModule = module;
+            console.log("WASM Module Initialized", module);
+            document.getElementById('status').innerText = "Loading Data...";
+            await loadData(module);
+        });
+
+        // Fetch the .bin data file
+        async function loadData(module) {
+            try {
+                const response = await fetch('../xzqh.bin');
+                if (!response.ok) throw new Error("Failed to load xzqh.bin");
+                const arrayBuffer = await response.arrayBuffer();
+                const uint8Array = new Uint8Array(arrayBuffer);
+                
+                const numBytes = uint8Array.length;
+                
+                // Allocate memory
+                // Ensure _malloc exists
+                if (typeof module._malloc !== 'function') {
+                    throw new Error("module._malloc is missing. Compile with -s EXPORTED_FUNCTIONS=['_malloc']");
+                }
+                const ptr = module._malloc(numBytes);
+                
+                // Robust Memory Access Strategy
+                let heapU8 = module.HEAPU8;
+                
+                if (!heapU8) {
+                    console.warn("module.HEAPU8 is undefined. Trying fallbacks...");
+                    
+                    if (module.buffer) {
+                        heapU8 = new Uint8Array(module.buffer);
+                    } else if (module.wasmMemory && module.wasmMemory.buffer) {
+                        heapU8 = new Uint8Array(module.wasmMemory.buffer);
+                    } else if (module.HEAP8) {
+                        // Sometimes HEAP8 exists but not HEAPU8 in weird optimization cases? Unlikely but possible.
+                        heapU8 = new Uint8Array(module.HEAP8.buffer);
+                    } else {
+                        // Log available keys to help debug
+                        console.log("Module keys:", Object.keys(module));
+                        throw new Error("Could not find WASM memory buffer (HEAPU8, buffer, or wasmMemory).");
+                    }
+                }
+                
+                // Copy data
+                heapU8.set(uint8Array, ptr);
+                
+                // Initialize C++ Wrapper
+                xzqh = new module.XZQHWrapper(ptr, numBytes);
+                
+                document.getElementById('status').innerText = "Ready (Data Loaded)";
+                document.getElementById('status').style.color = "green";
+                
+                initProvinces();
+                
+            } catch (e) {
+                console.error(e);
+                document.getElementById('status').innerText = "Error: " + e.message;
+            }
+        }
+
+        function populateSelect(selectId, dataJson, defaultText) {
+            const select = document.getElementById(selectId);
+            select.innerHTML = `<option value="">${defaultText}</option>`;
+            select.disabled = false;
+            
+            const data = JSON.parse(dataJson);
+            data.forEach(item => {
+                const option = document.createElement('option');
+                option.value = item.index; // Use index as value for fast lookup
+                option.text = item.name;
+                select.appendChild(option);
+            });
+        }
+
+        function initProvinces() {
+            if (!xzqh) return;
+            const json = xzqh.getProvinces();
+            populateSelect('province', json, "Select Province");
+        }
+
+        function updateResult(provIdx, cityIdx, countyIdx) {
+            if (!xzqh) return;
+            const p = provIdx !== "" ? parseInt(provIdx) : -1;
+            const c = cityIdx !== "" ? parseInt(cityIdx) : -1;
+            const co = countyIdx !== "" ? parseInt(countyIdx) : -1;
+
+            if (p === -1) {
+                document.getElementById('result').innerHTML = "Select a region to see details.";
+                return;
+            }
+
+            const infoJson = xzqh.getRegionInfo(p, c, co);
+            const info = JSON.parse(infoJson);
+            
+            let html = `<div class="result-item"><strong>Name:</strong> ${info.name}</div>`;
+            html += `<div class="result-item"><strong>Code:</strong> ${info.code}</div>`;
+            if (info.lng && info.lat) {
+                html += `<div class="result-item"><strong>Coordinates:</strong> ${info.lng}, ${info.lat}</div>`;
+                html += `<div style="margin-top:10px"><a href="https://www.amap.com/search?query=${info.lat},${info.lng}" target="_blank">View on AMap</a></div>`;
+            }
+            document.getElementById('result').innerHTML = html;
+        }
+
+        // Event Listeners
+        document.getElementById('province').addEventListener('change', (e) => {
+            const val = e.target.value;
+            
+            // Clear children
+            document.getElementById('city').innerHTML = '<option value="">Select City</option>';
+            document.getElementById('city').disabled = true;
+            document.getElementById('county').innerHTML = '<option value="">Select County</option>';
+            document.getElementById('county').disabled = true;
+
+            if (val !== "") {
+                const json = xzqh.getCities(parseInt(val));
+                populateSelect('city', json, "Select City");
+            }
+            updateResult(val, "", "");
+        });
+
+        document.getElementById('city').addEventListener('change', (e) => {
+            const pVal = document.getElementById('province').value;
+            const val = e.target.value;
+            
+            // Clear children
+            document.getElementById('county').innerHTML = '<option value="">Select County</option>';
+            document.getElementById('county').disabled = true;
+
+            if (val !== "") {
+                const json = xzqh.getCounties(parseInt(pVal), parseInt(val));
+                populateSelect('county', json, "Select County");
+            }
+            updateResult(pVal, val, "");
+        });
+
+        document.getElementById('county').addEventListener('change', (e) => {
+            const pVal = document.getElementById('province').value;
+            const cVal = document.getElementById('city').value;
+            const val = e.target.value;
+            updateResult(pVal, cVal, val);
+        });
+
+    </script>
+
+</body>
+</html>
